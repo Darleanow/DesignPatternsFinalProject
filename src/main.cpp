@@ -1,11 +1,11 @@
 #include <iostream>
-#include "../patterns/MaintenanceFactory.hpp"
-#include "../patterns/UrgenceFactory.hpp"
+#include "../include/patterns/MaintenanceFactory.hpp"
+#include "../include/patterns/UrgenceFactory.hpp"
 
 int main() {
     std::cout << "--- Planification d'interventions ---" << std::endl;
 
-    MaintenanceFacotory maintenanceFactory;
+    MaintenanceFactory maintenanceFactory;
     UrgenceFactory urgenceFactory;
 
     Intervention* intervention1 = maintenanceFactory.createIntervention();

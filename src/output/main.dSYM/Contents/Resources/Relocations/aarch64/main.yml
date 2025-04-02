@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jory/Desktop/Cours/M1/Design Patterns/Projet_Design_Patterns/src/output/main'
+relocations:     []
+...

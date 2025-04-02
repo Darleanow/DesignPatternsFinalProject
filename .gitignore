@@ -1,0 +1,40 @@
+# === BUILD ===
+/build/
+/CMakeFiles/
+/cmake-build-*/
+
+# === CMake ===
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+
+# === Binary ===
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# === Logs ===
+*.log
+
+# === VS Code ===
+.vscode/
+
+# === macOS ===
+.DS_Store
+
+# === CLion (JetBrains IDEs) ===
+.idea/
+*.iml
+
+# === Backup/Swap ===
+*~
+*.swp
+*.swo

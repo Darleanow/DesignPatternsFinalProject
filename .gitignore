@@ -35,6 +35,5 @@ CTestTestfile.cmake
 *.iml
 
 # === Backup/Swap ===
-*~
 *.swp
 *.swo

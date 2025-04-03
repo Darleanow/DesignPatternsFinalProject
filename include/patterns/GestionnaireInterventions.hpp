@@ -2,10 +2,10 @@
 #define GESTIONNAIRE_INTERVENTIONS_HPP
 
 #include "../interventions/Intervention.hpp"
-#include "/include/patterns/factory/InterventionFactory.hpp"
-#include "/include/patterns/decorator/SuiviGPSDecorator.hpp"
-#include "/include/patterns/decorator/PiecesJointesDecorator.hpp"
-#include ""
+#include "/factory/InterventionFactory.hpp"
+#include "/decorator/SuiviGPSDecorator.hpp"
+#include "/decorator/PiecesJointesDecorator.hpp"
+#include "/observer/Observable.hpp"
 #include <memory>
 #include <vector>
 
@@ -18,6 +18,7 @@ public:
     Intervention* creerIntervention(InterventionFactory* factory) {
         Intervention* intervention = factory->createIntervention();
         interventions.emplace_back(intervention); // stockée pour gestion mémoire
+        notifierObservers("Nouvelle intervention créée : " + intervention->getType());
         return intervention;
     }
 
@@ -25,6 +26,7 @@ public:
     Intervention* ajouterGPS(Intervention* intervention) {
         Intervention* decorated = new SuiviGPSDecorator(intervention);
         interventions.emplace_back(decorated);
+        notifierObservers("Ajout du suivi GPS à l'intervention.");
         return decorated;
     }
 
@@ -32,6 +34,7 @@ public:
     Intervention* ajouterPJ(Intervention* intervention) {
         Intervention* decorated = new PiecesJointesDecorator(intervention);
         interventions.emplace_back(decorated);
+        notifierObservers("Ajout de pièces jointes à l'intervention.");
         return decorated;
     }
 

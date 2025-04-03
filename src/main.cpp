@@ -19,7 +19,7 @@
 #include "patterns/GestionnaireProxy.hpp"
 
 int main() {
-    std::cout << "=== Bienvenue dans le système de planification d'interventions ===\n" << std::endl;
+    std::cout << "=== Welcome to the intervention planner ===\n" << std::endl;
 
     MaintenanceFactory maintenanceFactory;
     UrgenceFactory urgenceFactory;

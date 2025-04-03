@@ -49,7 +49,7 @@ Projet_Design_Patterns/
 
 [Notification] Nouvelle intervention créée : Maintenance
 [Notification] Nouvelle intervention créée : Urgence
-⛔ Accès refusé à Michel : rôle lecture uniquement.
+⛔ Accès refusé à Enzo : rôle lecture uniquement.
 
 === Liste des interventions ===
 - Maintenance | Intervention de maintenance préventive

@@ -18,15 +18,15 @@ Projet console en C++ mettant en œuvre plusieurs **Design Patterns** pour simul
 
 Projet_Design_Patterns/
 │
-├── include/              # Tous les headers (.hpp)
-│   ├── interventions/    # Classes de base et concrètes
-│   ├── patterns/         # Design Patterns (Factory, Decorator, etc.)
-│   ├── utilisateur/      # Gestion des utilisateurs et rôles
-│   └── roles/            # Enumération des rôles
+├── include/              
+│   ├── interventions/    
+│   ├── patterns/         
+│   ├── utilisateur/      
+│   └── roles/            
 │
-├── src/                  # Fichier main.cpp
-├── .dist/                # Exécutable généré
-└── README.md             # Ce fichier
+├── src/                  
+├── .dist/                
+└── README.md            
 
 ---
 

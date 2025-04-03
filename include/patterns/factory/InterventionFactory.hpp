@@ -1,7 +1,7 @@
 #ifndef INTERVENTION_FACTORY_HPP
 #define INTERVENTION_FACTORY_HPP
 
-#include "../interventions/Intervention.hpp"
+#include "interventions/Intervention.hpp"
 
 class InterventionFactory {
 public:

@@ -2,10 +2,10 @@
 #define GESTIONNAIRE_INTERVENTIONS_HPP
 
 #include "../interventions/Intervention.hpp"
-#include "/factory/InterventionFactory.hpp"
-#include "/decorator/SuiviGPSDecorator.hpp"
-#include "/decorator/PiecesJointesDecorator.hpp"
-#include "/observer/Observable.hpp"
+#include "factory/InterventionFactory.hpp"
+#include "decorator/SuiviGPSDecorator.hpp"
+#include "decorator/PiecesJointesDecorator.hpp"
+#include "observer/Observable.hpp"
 #include <memory>
 #include <vector>
 

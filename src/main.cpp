@@ -1,18 +1,18 @@
 #include <iostream>
 
 // Factory
-#include "../include/patterns/factory/MaintenanceFactory.hpp"
-#include "../include/patterns/factory/UrgenceFactory.hpp"
+#include "patterns/factory/MaintenanceFactory.hpp"
+#include "patterns/factory/UrgenceFactory.hpp"
 
 // Decorators
-#include "../include/patterns/decorator/SuiviGPSDecorator.hpp"
-#include "../include/patterns/decorator/PiecesJointesDecorator.hpp"
+#include "patterns/decorator/SuiviGPSDecorator.hpp"
+#include "patterns/decorator/PiecesJointesDecorator.hpp"
 
 // Façade
-#include "../include/patterns/GestionnaireInterventions.hpp"
+#include "patterns/GestionnaireInterventions.hpp"
 
 //Observeur
-#include "../include/patterns/observer/ConsoleNotifier.hpp"
+#include "patterns/observer/ConsoleNotifier.hpp"
 
 int main() {
     std::cout << "=== Bienvenue dans le système de planification d'interventions ===\n" << std::endl;

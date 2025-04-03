@@ -1,7 +1,7 @@
 #ifndef UTILISATEUR_HPP
 #define UTILISATEUR_HPP
 
-#include "roles/Role.hpp"
+#include "../roles/Role.hpp"
 #include <string>
 
 class Utilisateur {
@@ -12,7 +12,7 @@ private:
 public:
     Utilisateur(const std::string& nom, Role role);
 
-    std::string getNom() const;{
+    std::string getNom() const{
         return nom;
     }
     Role getRole() const {

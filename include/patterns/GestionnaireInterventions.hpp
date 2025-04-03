@@ -15,7 +15,7 @@ private:
 
 public:
     // Crée une intervention de base via une factory
-    Intervention* creerIntervention(InterventionFactory* factory) {
+    Intervention* createIntervention(InterventionFactory* factory) {
         Intervention* intervention = factory->createIntervention();
         interventions.emplace_back(intervention); // stockée pour gestion mémoire
         notifyObservers("Nouvelle intervention créée : " + intervention->getType());

@@ -28,8 +28,8 @@ int main() {
     ConsoleNotifier console;
     gestionnaire.addObserver(&console);
 
-        Utilisateur admin("Jory", Role::ECRITURE);
-    Utilisateur lecteur("Michel", Role::LECTURE);
+    Utilisateur admin("Jory", Role::ECRITURE);
+    Utilisateur lecteur("Enzo", Role::LECTURE);
 
     GestionnaireProxy proxyAdmin(gestionnaire, admin);
     GestionnaireProxy proxyLecteur(gestionnaire, lecteur);
@@ -72,4 +72,4 @@ int main() {
     delete intervention5;
 
     return 0;
-}
+};

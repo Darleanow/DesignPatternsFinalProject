@@ -6,7 +6,7 @@
 class Maintenance : public Intervention {
 public:
     std::string getType() const override { return "Maintenance"; }
-    std::string getDetails() const override { return "Maintenance de l'appareil"; }
+    std::string getDetails() const override { return "Device Maintenance"; }
 };
 
 #endif

@@ -18,7 +18,7 @@ public:
     Intervention* createIntervention(InterventionFactory* factory) {
         Intervention* intervention = factory->createIntervention();
         interventions.emplace_back(intervention); // stockée pour gestion mémoire
-        notifyObservers("Nouvelle intervention créée : " + intervention->getType());
+        notifyObservers("New intervention : " + intervention->getType());
         return intervention;
     }
 
@@ -26,7 +26,7 @@ public:
     Intervention* ajouterGPS(Intervention* intervention) {
         Intervention* decorated = new SuiviGPSDecorator(intervention);
         interventions.emplace_back(decorated);
-        notifyObservers("Ajout du suivi GPS à l'intervention.");
+        notifyObservers("Add GPS");
         return decorated;
     }
 
@@ -34,13 +34,13 @@ public:
     Intervention* ajouterPJ(Intervention* intervention) {
         Intervention* decorated = new PiecesJointesDecorator(intervention);
         interventions.emplace_back(decorated);
-        notifyObservers("Ajout de pièces jointes à l'intervention.");
+        notifyObservers("Add linked files");
         return decorated;
     }
 
     // Affiche toutes les interventions
     void afficherInterventions() const {
-        std::cout << "\n=== Liste des interventions ===" << std::endl;
+        std::cout << "\n=== Interventions list ===" << std::endl;
         for (const auto& i : interventions) {
             std::cout << "- " << i->getType() << " | " << i->getDetails() << std::endl;
         }

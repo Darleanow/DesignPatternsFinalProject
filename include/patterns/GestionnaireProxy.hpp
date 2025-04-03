@@ -17,8 +17,8 @@ public:
         if (utilisateur.getRole() == Role::ECRITURE) {
             return gestionnaire.createIntervention(factory);
         } else {
-            std::cout << "⛔ Accès refusé à " << utilisateur.getNom()
-                      << " : rôle lecture uniquement." << std::endl;
+            std::cout << "⛔ Denied access " << utilisateur.getNom()
+                      << " : reader only" << std::endl;
             return nullptr;
         }
     }
@@ -27,7 +27,7 @@ public:
         if (utilisateur.getRole() == Role::LECTURE || utilisateur.getRole() == Role::ECRITURE) {
             gestionnaire.afficherInterventions();
         } else {
-            std::cout << "⛔ Accès refusé pour afficher les interventions." << std::endl;
+            std::cout << "⛔ Denied access" << std::endl;
         }
     }
 };

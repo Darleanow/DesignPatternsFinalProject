@@ -5,8 +5,8 @@
 
 class Urgence : public Intervention {
 public:
-    std::string getType() const override { return "Urgence"; }
-    std::string getDetails() const override { return "Intervention d'urgence"; }
+    std::string getType() const override { return "Emergency"; }
+    std::string getDetails() const override { return "Emergency repair"; }
 };
 
 #endif

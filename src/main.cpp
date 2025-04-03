@@ -14,6 +14,10 @@
 //Observeur
 #include "patterns/observer/ConsoleNotifier.hpp"
 
+//Proxy
+#include "utilisateur/Utilisateur.hpp"
+#include "patterns/GestionnaireProxy.hpp"
+
 int main() {
     std::cout << "=== Bienvenue dans le système de planification d'interventions ===\n" << std::endl;
 
@@ -23,6 +27,20 @@ int main() {
     GestionnaireInterventions gestionnaire;
     ConsoleNotifier console;
     gestionnaire.addObserver(&console);
+
+        Utilisateur admin("Jory", Role::ECRITURE);
+    Utilisateur lecteur("Michel", Role::LECTURE);
+
+    GestionnaireProxy proxyAdmin(gestionnaire, admin);
+    GestionnaireProxy proxyLecteur(gestionnaire, lecteur);
+
+    proxyAdmin.createIntervention(&maintenanceFactory);
+    proxyAdmin.createIntervention(&urgenceFactory);
+
+    proxyLecteur.createIntervention(&maintenanceFactory); // doit afficher accès refusé
+
+    proxyAdmin.afficherInterventions();
+    proxyLecteur.afficherInterventions(); // OK
 
     Intervention* intervention1 = maintenanceFactory.createIntervention();
     Intervention* intervention2 = urgenceFactory.createIntervention();

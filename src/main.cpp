@@ -8,6 +8,9 @@
 #include "../include/patterns/SuiviGPSDecorator.hpp"
 #include "../include/patterns/PiecesJointesDecorator.hpp"
 
+// Façade
+#include "../include/patterns/GestionnaireInterventions.hpp"
+
 int main() {
     std::cout << "=== Bienvenue dans le système de planification d'interventions ===\n" << std::endl;
 

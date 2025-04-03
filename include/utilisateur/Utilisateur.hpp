@@ -10,7 +10,8 @@ private:
     Role role;
 
 public:
-    Utilisateur(const std::string& nom, Role role);
+    Utilisateur(const std::string& nom, Role role)
+        : nom(nom), role(role) {}
 
     std::string getNom() const{
         return nom;

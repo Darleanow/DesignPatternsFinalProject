@@ -1,7 +1,7 @@
 #ifndef INTERVENTION_DECORATOR_HPP
 #define INTERVENTION_DECORATOR_HPP
 
-#include "../interventions/Intervention.hpp"
+#include "interventions/Intervention.hpp"
 
 class InterventionDecorator : public Intervention {
 protected:

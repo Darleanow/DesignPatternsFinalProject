@@ -2,7 +2,7 @@
 #define URGENCE_FACTORY_HPP
 
 #include "InterventionFactory.hpp"
-#include "../interventions/Urgence.hpp"
+#include "interventions/Urgence.hpp"
 
 class UrgenceFactory : public InterventionFactory {
 public:

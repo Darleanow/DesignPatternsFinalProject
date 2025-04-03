@@ -18,7 +18,7 @@ public:
     Intervention* creerIntervention(InterventionFactory* factory) {
         Intervention* intervention = factory->createIntervention();
         interventions.emplace_back(intervention); // stockée pour gestion mémoire
-        notifierObservers("Nouvelle intervention créée : " + intervention->getType());
+        notifyObservers("Nouvelle intervention créée : " + intervention->getType());
         return intervention;
     }
 
@@ -26,7 +26,7 @@ public:
     Intervention* ajouterGPS(Intervention* intervention) {
         Intervention* decorated = new SuiviGPSDecorator(intervention);
         interventions.emplace_back(decorated);
-        notifierObservers("Ajout du suivi GPS à l'intervention.");
+        notifyObservers("Ajout du suivi GPS à l'intervention.");
         return decorated;
     }
 
@@ -34,7 +34,7 @@ public:
     Intervention* ajouterPJ(Intervention* intervention) {
         Intervention* decorated = new PiecesJointesDecorator(intervention);
         interventions.emplace_back(decorated);
-        notifierObservers("Ajout de pièces jointes à l'intervention.");
+        notifyObservers("Ajout de pièces jointes à l'intervention.");
         return decorated;
     }
 

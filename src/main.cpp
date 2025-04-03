@@ -22,7 +22,7 @@ int main() {
 
     GestionnaireInterventions gestionnaire;
     ConsoleNotifier console;
-    gestionnaire.ajouterObserver(&console);
+    gestionnaire.addObserver(&console);
 
     Intervention* intervention1 = maintenanceFactory.createIntervention();
     Intervention* intervention2 = urgenceFactory.createIntervention();

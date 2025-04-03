@@ -1,7 +1,7 @@
 #ifndef GESTIONNAIRE_INTERVENTIONS_HPP
 #define GESTIONNAIRE_INTERVENTIONS_HPP
 
-#include "interventions/Intervention.hpp"
+#include "../interventions/Intervention.hpp"
 #include "factory/InterventionFactory.hpp"
 #include "decorator/SuiviGPSDecorator.hpp"
 #include "decorator/PiecesJointesDecorator.hpp"
@@ -9,7 +9,7 @@
 #include <memory>
 #include <vector>
 
-class GestionnaireInterventions {
+class GestionnaireInterventions: public Observable {
 private:
     std::vector<std::unique_ptr<Intervention>> interventions;
 

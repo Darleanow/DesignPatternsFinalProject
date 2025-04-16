@@ -1,8 +1,11 @@
-#include <iostream>
+#include <QApplication>
+#include <QPushButton>
 
-int main(void)
+int main(int argc, char *argv[])
 {
-  std::cout << "Hello, World !" << std::endl;
-
-  return 0;
+  QApplication app(argc, argv);
+  QPushButton  button("Hello from Qt in WSL!");
+  button.resize(200, 100);
+  button.show();
+  return app.exec();
 }

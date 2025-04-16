@@ -1,0 +1,13 @@
+#pragma once
+
+enum class InterventionAddon
+{
+  GPS_TRACKING,
+  ATTACHMENTS,
+  LIVE_FEEDBACK,
+  CHECKLIST,
+  EXTRA_SECURITY,
+  PRIORITY_TAG,
+  AUDIT_TRAIL,
+  BACKUP_CREATION
+};

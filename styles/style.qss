@@ -1,0 +1,70 @@
+/* === GLOBAL STYLES === */
+QWidget {
+    background-color: #2B2B2B;
+    color: #E0E0E0;
+    font-family: "Inter", "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+
+/* === PUSH BUTTON === */
+QPushButton {
+    background-color: #3C3C3C;
+    color: #E0E0E0;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+QPushButton:hover {
+    background-color: #4A4A4A;
+}
+
+QPushButton:pressed {
+    background-color: #5A5A5A;
+}
+
+QPushButton:disabled {
+    background-color: #2F2F2F;
+    color: #6A6A6A;
+}
+
+/* === CHECKBOX === */
+QCheckBox {
+    spacing: 8px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #3C3C3C;
+    border: 1px solid #6A6A6A;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #00FF9D;
+    border: none;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border: 1px solid #AAAAAA;
+}
+
+QCheckBox::indicator:disabled {
+    background-color: #2F2F2F;
+    border: 1px solid #444444;
+}
+
+QCheckBox::indicator:checked:disabled {
+    background-color: #444444;
+}
+
+/* === TEXT LABELS === */
+QLabel {
+    color: #E0E0E0;
+}
+
+QLabel:disabled {
+    color: #6A6A6A;
+}
+

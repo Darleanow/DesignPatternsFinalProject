@@ -1,11 +1,10 @@
-#include <QApplication>
-#include <QPushButton>
+#include "TechMa/Views/TechMapp.h"
 
 int main(int argc, char *argv[])
 {
   QApplication app(argc, argv);
-  QPushButton  button("Hello from Qt in WSL!");
-  button.resize(200, 100);
-  button.show();
+
+  TechMapp     techmapp(app); // pas de dérivation, juste un contrôleur
+
   return app.exec();
 }

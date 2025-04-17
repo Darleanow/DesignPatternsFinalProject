@@ -9,6 +9,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
+qt_add_resources(APP_RESOURCES resources.qrc)
 
 add_executable(
   TechMa
@@ -18,7 +19,12 @@ add_executable(
   src/Technician/ExpertiseDecorator.cpp
   src/Technician/TechnicianDecorator.cpp
   src/Technician/Technician.cpp
+
+  src/Views/TechMapp.cpp
+  include/TechMa/Views/TechMapp.h
 )
+
+target_sources(TechMa PRIVATE ${APP_RESOURCES})
 
 target_include_directories(TechMa PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 

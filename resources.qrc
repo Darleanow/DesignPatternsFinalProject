@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/">
+    <file>styles/style.qss</file>
+
+    <file>styles/fonts/RobotoMono.ttf</file>
+    
+    <file>styles/icons/navigation_bar/interventions_add.svg</file>
+    <file>styles/icons/navigation_bar/technicians_add.svg</file>
+    <file>styles/icons/navigation_bar/interventions.svg</file>
+    <file>styles/icons/navigation_bar/log-in.svg</file>
+    <file>styles/icons/navigation_bar/log-out.svg</file>
+    <file>styles/icons/navigation_bar/manage_user.svg</file>
+    <file>styles/icons/navigation_bar/settings.svg</file>
+    <file>styles/icons/navigation_bar/technicians.svg</file>
+  </qresource>
+</RCC>

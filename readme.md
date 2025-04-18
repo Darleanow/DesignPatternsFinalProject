@@ -13,7 +13,7 @@ First, clone the repo:
 
 
 ```bash
-git clone https://github.com/username/TechMa.git
+git clone https://github.com/Darleanow/TechMa.git
 ```
 
 Then, make a build directory:

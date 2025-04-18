@@ -1,7 +1,16 @@
 #include "TechMa/Technician/BasicTechnician.h"
 #include "TechMa/Types/ExpertiseField.h"
 
-BasicTechnician::BasicTechnician(std::string name) : m_name(std::move(name)) {}
+BasicTechnician::BasicTechnician(int id, std::string name)
+    : m_id(id),
+      m_name(std::move(name))
+{
+}
+
+int BasicTechnician::get_id() const
+{
+  return m_id;
+}
 
 std::string_view BasicTechnician::get_name() const
 {

@@ -6,6 +6,11 @@ TechnicianDecorator::TechnicianDecorator(std::shared_ptr<ATechnician> base)
 {
 }
 
+int TechnicianDecorator::get_id() const
+{
+  return m_wrapped->get_id();
+}
+
 std::string_view TechnicianDecorator::get_name() const
 {
   return m_wrapped->get_name();

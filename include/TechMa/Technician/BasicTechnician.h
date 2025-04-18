@@ -8,12 +8,14 @@
 class BasicTechnician : public ATechnician
 {
 public:
-  explicit BasicTechnician(std::string name);
+  BasicTechnician(int id, std::string name);
 
+  int                         get_id() const override;
   std::string_view            get_name() const override;
   std::vector<ExpertiseField> get_expertise() const override;
   bool                        has_expertise(ExpertiseField) const override;
 
 private:
+  int         m_id;
   std::string m_name;
 };

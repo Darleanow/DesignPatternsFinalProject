@@ -34,6 +34,9 @@ add_executable(
 
   src/Views/Widgets/NavigationBar.cpp
   include/TechMa/Views/Widgets/NavigationBar.h
+  
+  src/Views/Widgets/CreateTechnicianDialog.cpp
+  include/TechMa/Views/Widgets/CreateTechnicianDialog.h
 )
 
 target_sources(TechMa PRIVATE ${APP_RESOURCES})

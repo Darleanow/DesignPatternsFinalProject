@@ -19,7 +19,7 @@ git clone https://github.com/Darleanow/TechMa.git
 Then, make a build directory:
 
 ```bash
-cd DesignPatternsFinalProject
+cd TechMa
 mkdir build && cd build
 ```
 

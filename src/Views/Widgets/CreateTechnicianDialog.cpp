@@ -17,7 +17,9 @@ void CreateTechnicianDialog::setup_ui()
   setWindowTitle("New Technician");
 
   auto *form = new QFormLayout(this);
-  form->addRow("Full Name", new QLineEdit());
+
+  m_name_line_edit = new QLineEdit(this);
+  form->addRow("Full Name", m_name_line_edit);
 
   m_expertise_list = new QListWidget(this);
   m_expertise_list->setSelectionMode(QAbstractItemView::MultiSelection);
@@ -79,4 +81,9 @@ std::vector<ExpertiseField> CreateTechnicianDialog::selected_expertise() const
   }
 
   return result;
+}
+
+QString CreateTechnicianDialog::full_name() const
+{
+  return m_name_line_edit->text();
 }

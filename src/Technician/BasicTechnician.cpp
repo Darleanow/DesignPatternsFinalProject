@@ -12,7 +12,7 @@ int BasicTechnician::get_id() const
   return m_id;
 }
 
-std::string_view BasicTechnician::get_name() const
+std::string BasicTechnician::get_name() const
 {
   return m_name;
 }

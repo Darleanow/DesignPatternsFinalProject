@@ -18,7 +18,10 @@ add_executable(
   
   src/Technician/ExpertiseDecorator.cpp
   src/Technician/TechnicianDecorator.cpp
-  src/Technician/Technician.cpp
+  src/Technician/BasicTechnician.cpp
+
+  src/Repository/TechnicianRepository.cpp
+  include/TechMa/Repository/TechnicianRepository.h
 
   src/Views/TechMapp.cpp
   include/TechMa/Views/TechMapp.h
@@ -37,6 +40,9 @@ add_executable(
   
   src/Views/Widgets/CreateTechnicianDialog.cpp
   include/TechMa/Views/Widgets/CreateTechnicianDialog.h
+
+  src/Views/Widgets/TechniciansListView.cpp
+  include/TechMa/Views/Widgets/TechniciansListView.h
 )
 
 target_sources(TechMa PRIVATE ${APP_RESOURCES})

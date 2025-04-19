@@ -7,6 +7,7 @@
 class QWidget;
 class QDialogButtonBox;
 class QListWidget;
+class QLineEdit;
 
 class CreateTechnicianDialog : public QDialog
 {
@@ -17,9 +18,12 @@ public:
 
   std::vector<ExpertiseField> selected_expertise() const;
 
+  QString                     full_name() const;
+
 private:
   QDialogButtonBox *m_buttons;
   QListWidget      *m_expertise_list;
+  QLineEdit        *m_name_line_edit;
 
   void              setup_ui();
   void              setup_connects();

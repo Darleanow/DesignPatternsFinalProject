@@ -4,6 +4,7 @@
 
 class QPushButton;
 class CreateTechnicianDialog;
+class TechniciansListView;
 
 class TechniciansPage : public QWidget
 {
@@ -18,4 +19,5 @@ private:
 
   QPushButton            *m_create_button;
   CreateTechnicianDialog *m_create_dialog;
+  TechniciansListView    *m_list_view;
 };

@@ -7,8 +7,8 @@
 
 #include <QLabel>
 #include <QPushButton>
-#include <qboxlayout.h>
-#include <qdialog.h>
+#include <QHBoxLayout>
+#include <QDialog>
 
 TechniciansPage::TechniciansPage(QWidget *parent) : QWidget(parent)
 {

@@ -3,12 +3,15 @@
 #include "TechMa/Technician/BasicTechnician.h"
 #include "TechMa/Technician/ExpertiseDecorator.h"
 #include "TechMa/Views/Widgets/CreateTechnicianDialog.h"
+#include "TechMa/Views/Widgets/EntityEditorLayout.h"
+#include "TechMa/Views/Widgets/TechnicianEditPanel.h"
 #include "TechMa/Views/Widgets/TechniciansListView.h"
 
-#include <QLabel>
-#include <QPushButton>
-#include <QHBoxLayout>
 #include <QDialog>
+#include <QHBoxLayout>
+#include <QLabel>
+#include <QListWidget>
+#include <QPushButton>
 
 TechniciansPage::TechniciansPage(QWidget *parent) : QWidget(parent)
 {
@@ -18,21 +21,18 @@ TechniciansPage::TechniciansPage(QWidget *parent) : QWidget(parent)
 
 void TechniciansPage::setup_ui()
 {
-  auto  top_bar = new QHBoxLayout(this);
-
-  auto *page_name = new QLabel("Technicians", this);
-  page_name->setObjectName("Title");
-
-  top_bar->addWidget(page_name);
-
-  m_create_button = new QPushButton("Create Technician", this);
-
-  top_bar->addWidget(m_create_button);
+  m_layout = new EntityEditorLayout("Technicians", "Create Technician", this);
+  m_create_button = m_layout->action_button();
 
   m_list_view = new TechniciansListView(this);
-  top_bar->addWidget(m_list_view);
+  m_layout->set_left_widget(m_list_view);
 
-  setLayout(top_bar);
+  m_edit_panel = new TechnicianEditPanel(this);
+  m_layout->set_right_widget(m_edit_panel);
+
+  auto *wrapper_layout = new QVBoxLayout(this);
+  wrapper_layout->addWidget(m_layout);
+  setLayout(wrapper_layout);
 
   m_create_dialog = new CreateTechnicianDialog(this);
 }
@@ -58,5 +58,41 @@ void TechniciansPage::setup_connects()
 
       technician_repository.save(technician);
     }
+  });
+
+  connect(
+      m_list_view, &TechniciansListView::technician_selected, this,
+      [this](int id) {
+        m_selected_technician_id = id;
+
+        const auto tech = TechnicianRepository::instance().find_by_id(id);
+        if(!tech)
+          return;
+
+        m_edit_panel->load_technician(
+            tech->get()->get_id(),
+            QString::fromStdString(tech->get()->get_name()),
+            tech->get()->get_expertise()
+        );
+
+        m_edit_panel->setVisible(true);
+      }
+  );
+
+  connect(m_edit_panel->save_button(), &QPushButton::clicked, this, [this]() {
+    if(!m_selected_technician_id.has_value())
+      return;
+
+    const auto id         = *m_selected_technician_id;
+    const auto name       = m_edit_panel->name().toStdString();
+    const auto expertises = m_edit_panel->selected_expertises();
+
+    std::shared_ptr<ATechnician> technician =
+        std::make_shared<BasicTechnician>(id, name);
+
+    for(const auto &exp : expertises)
+      technician = std::make_shared<ExpertiseDecorator>(technician, exp);
+
+    TechnicianRepository::instance().save(technician);
   });
 }

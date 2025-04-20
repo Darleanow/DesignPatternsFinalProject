@@ -17,8 +17,12 @@ public:
 
   void on_repository_updated() override;
 
+signals:
+  void technician_selected(int id);
+
 private:
   QStringListModel *m_model;
 
   void              setup_ui();
+  void              setup_connects();
 };

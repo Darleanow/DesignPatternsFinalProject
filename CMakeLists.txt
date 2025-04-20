@@ -43,6 +43,12 @@ add_executable(
 
   src/Views/Widgets/TechniciansListView.cpp
   include/TechMa/Views/Widgets/TechniciansListView.h
+
+  src/Views/Widgets/EntityEditorLayout.cpp
+  include/TechMa/Views/Widgets/EntityEditorLayout.h
+
+  src/Views/Widgets/TechnicianEditPanel.cpp
+  include/TechMa/Views/Widgets/TechnicianEditPanel.h
 )
 
 target_sources(TechMa PRIVATE ${APP_RESOURCES})

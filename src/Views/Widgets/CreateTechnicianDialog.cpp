@@ -51,7 +51,7 @@ void CreateTechnicianDialog::setup_connects()
   connect(m_buttons, &QDialogButtonBox::rejected, this, &QDialog::reject);
 }
 
-std::vector<ExpertiseField> CreateTechnicianDialog::selected_expertise() const
+std::vector<ExpertiseField> CreateTechnicianDialog::selected_expertises() const
 {
   std::vector<ExpertiseField> result;
 

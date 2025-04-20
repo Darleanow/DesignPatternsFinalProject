@@ -16,7 +16,7 @@ class CreateTechnicianDialog : public QDialog
 public:
   explicit CreateTechnicianDialog(QWidget *parent = nullptr);
 
-  std::vector<ExpertiseField> selected_expertise() const;
+  std::vector<ExpertiseField> selected_expertises() const;
 
   QString                     full_name() const;
 

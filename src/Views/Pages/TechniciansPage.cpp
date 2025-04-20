@@ -42,7 +42,7 @@ void TechniciansPage::setup_connects()
   connect(m_create_button, &QPushButton::clicked, m_create_dialog, [this]() {
     if(m_create_dialog->exec() == QDialog::Accepted) {
       auto  full_name           = m_create_dialog->full_name();
-      auto  selected_expertises = m_create_dialog->selected_expertise();
+      auto  selected_expertises = m_create_dialog->selected_expertises();
 
       auto &technician_repository = TechnicianRepository::instance();
 

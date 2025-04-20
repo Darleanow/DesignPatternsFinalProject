@@ -1,14 +1,15 @@
 #pragma once
-#include <chrono>
+
+#include "TechMa/Entities/InterventionData.h"
 
 class AIntervention
 {
 public:
-  ~AIntervention() = delete;
+  virtual ~AIntervention() = default;
 
-private:
-  std::chrono::year_month_day m_date;
-  // Technician
-  std::chrono::minutes m_anticipated_duration;
-  std::chrono::minutes m_actual_duration;
+  virtual const InterventionData &data() const = 0;
+  virtual int                     id() const
+  {
+    return data().id;
+  }
 };

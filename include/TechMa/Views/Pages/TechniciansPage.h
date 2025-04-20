@@ -5,6 +5,8 @@
 class QPushButton;
 class CreateTechnicianDialog;
 class TechniciansListView;
+class EntityEditorLayout;
+class TechnicianEditPanel;
 
 class TechniciansPage : public QWidget
 {
@@ -20,4 +22,9 @@ private:
   QPushButton            *m_create_button;
   CreateTechnicianDialog *m_create_dialog;
   TechniciansListView    *m_list_view;
+
+  EntityEditorLayout     *m_layout;
+  TechnicianEditPanel    *m_edit_panel;
+
+  std::optional<int>      m_selected_technician_id;
 };

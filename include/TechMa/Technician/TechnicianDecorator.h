@@ -10,7 +10,8 @@ class TechnicianDecorator : public ATechnician
 public:
   explicit TechnicianDecorator(std::shared_ptr<ATechnician> base);
 
-  std::string_view            get_name() const override;
+  int                         get_id() const override;
+  std::string                 get_name() const override;
   std::vector<ExpertiseField> get_expertise() const override;
   bool                        has_expertise(ExpertiseField) const override;
 

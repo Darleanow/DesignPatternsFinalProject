@@ -40,9 +40,8 @@ void InterventionPage::setup_connects()
   connect(m_create_button, &QPushButton::clicked, this, [this]() {
     if(m_create_dialog->exec() == QDialog::Accepted) {
       auto data = m_create_dialog->intervention_data();
-      data->id  = InterventionRepository::instance().next_id();
-
       if(data.has_value()) {
+        data->id = InterventionRepository::instance().next_id();
         auto intervention =
             InterventionCreatorFacade::create_intervention(data.value());
         InterventionRepository::instance().save(intervention);

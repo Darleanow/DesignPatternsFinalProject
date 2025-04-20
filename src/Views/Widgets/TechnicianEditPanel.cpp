@@ -6,7 +6,6 @@
 #include <QLineEdit>
 #include <QListWidget>
 #include <QPushButton>
-#include <qpushbutton.h>
 
 TechnicianEditPanel::TechnicianEditPanel(QWidget *parent) : QWidget(parent)
 {

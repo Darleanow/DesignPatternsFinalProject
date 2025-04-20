@@ -6,6 +6,7 @@
 TechniciansListView::TechniciansListView(QWidget *parent) : QListView(parent)
 {
   setup_ui();
+  setup_connects();
 }
 
 TechniciansListView::~TechniciansListView()
@@ -23,10 +24,21 @@ void TechniciansListView::setup_ui()
   on_repository_updated();
 }
 
+void TechniciansListView::setup_connects()
+{
+  connect(this, &QListView::clicked, this, [this](const QModelIndex &index) {
+    const int row = index.row();
+
+    auto      all = TechnicianRepository::instance().get_all();
+    if(row >= 0 && row < static_cast<int>(all.size())) {
+      int  id = static_cast<int>(all.at(row)->get_id());
+      emit technician_selected(id);
+    }
+  });
+}
+
 void TechniciansListView::on_repository_updated()
 {
-  qDebug() << "UPDATE";
-
   QStringList names;
   for(auto &tech : TechnicianRepository::instance().get_all()) {
     names << QString::fromStdString(tech->get_name());

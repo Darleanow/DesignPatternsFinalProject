@@ -18,6 +18,8 @@ void TechniciansListView::setup_ui()
 {
   m_model = new QStringListModel(this);
 
+  setEditTriggers(QAbstractItemView::NoEditTriggers);
+
   setModel(m_model);
 
   TechnicianRepository::instance().subscribe(this);

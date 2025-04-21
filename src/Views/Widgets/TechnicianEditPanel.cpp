@@ -1,5 +1,4 @@
 #include "TechMa/Views/Widgets/TechnicianEditPanel.h"
-#include "TechMa/Repository/TechnicianRepository.h"
 #include "TechMa/Types/ExpertiseField.h"
 
 #include <QFormLayout>

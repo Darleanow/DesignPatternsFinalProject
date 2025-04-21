@@ -12,5 +12,11 @@
     <file>styles/icons/navigation_bar/manage_user.svg</file>
     <file>styles/icons/navigation_bar/settings.svg</file>
     <file>styles/icons/navigation_bar/technicians.svg</file>
+    <file>styles/icons/chevron-down.svg</file>
+    <file>styles/icons/chevron-left.svg</file>
+    <file>styles/icons/chevron-right.svg</file>
+    <file>styles/icons/chevron-up.svg</file>
+    <file>styles/icons/close.svg</file>
+    <file>styles/icons/validate.svg</file>
   </qresource>
 </RCC>

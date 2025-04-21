@@ -23,6 +23,13 @@ add_executable(
   src/Repository/TechnicianRepository.cpp
   include/TechMa/Repository/TechnicianRepository.h
 
+  src/Repository/InterventionRepository.cpp
+  include/TechMa/Repository/InterventionRepository.h
+
+  src/Interventions/ConcreteIntervention.cpp
+  src/Facade/InterventionCreatorFacade.cpp
+  src/Factory/InterventionFactory.cpp
+
   src/Views/TechMapp.cpp
   include/TechMa/Views/TechMapp.h
 
@@ -49,6 +56,18 @@ add_executable(
 
   src/Views/Widgets/TechnicianEditPanel.cpp
   include/TechMa/Views/Widgets/TechnicianEditPanel.h
+
+  src/Views/Controllers/TechListController.cpp
+  include/TechMa/Views/Controllers/TechListController.h
+
+  src/Views/Widgets/CreateInterventionDialog.cpp
+  include/TechMa/Views/Widgets/CreateInterventionDialog.h 
+
+  src/Views/Widgets/InterventionEditPanel.cpp
+  include/TechMa/Views/Widgets/InterventionEditPanel.h
+
+  src/Views/Widgets/InterventionsListView.cpp
+  include/TechMa/Views/Widgets/InterventionsListView.h
 )
 
 target_sources(TechMa PRIVATE ${APP_RESOURCES})

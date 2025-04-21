@@ -43,7 +43,7 @@ QPixmap NavigationBar::paint_svg(const QString &path) const
   QPixmap  result = source;
   QPainter painter(&result);
   painter.setCompositionMode(QPainter::CompositionMode_SourceIn);
-  painter.fillRect(result.rect(), QColor("#00FF9D"));
+  painter.fillRect(result.rect(), QColor("#6B6BFF"));
   painter.end();
   return result;
 }

@@ -29,7 +29,9 @@ void InterventionRepositoryProxy::save(
 )
 {
   if(!AuthenticationService::instance().has_role(UserRole::TECHNICIAN)) {
-    throw AccessDeniedException("You must be logged in to save interventions");
+    throw AccessDeniedException(
+        "You must be at least a member to save interventions"
+    );
   }
   InterventionRepository::instance().save(intervention);
 }

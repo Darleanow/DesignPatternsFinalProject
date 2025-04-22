@@ -38,15 +38,21 @@ AuthenticationService &AuthenticationService::instance()
 
 AuthenticationService::AuthenticationService()
 {
-  register_user(std::make_shared<User>(
-      1, "admin", hash_password("admin123"), UserRole::ADMIN
-  ));
-  register_user(std::make_shared<User>(
-      2, "tech", hash_password("tech123"), UserRole::TECHNICIAN
-  ));
-  register_user(std::make_shared<User>(
-      3, "guest", hash_password("guest123"), UserRole::GUEST
-  ));
+  register_user(
+      std::make_shared<User>(
+          1, "admin", hash_password("admin123"), UserRole::ADMIN
+      )
+  );
+  register_user(
+      std::make_shared<User>(
+          2, "tech", hash_password("tech123"), UserRole::TECHNICIAN
+      )
+  );
+  register_user(
+      std::make_shared<User>(
+          3, "guest", hash_password("guest123"), UserRole::GUEST
+      )
+  );
 }
 
 void AuthenticationService::register_user(std::shared_ptr<User> user)

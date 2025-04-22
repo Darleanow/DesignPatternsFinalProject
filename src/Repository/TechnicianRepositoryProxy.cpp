@@ -31,7 +31,8 @@ int TechnicianRepositoryProxy::next_id()
 void TechnicianRepositoryProxy::save(std::shared_ptr<ATechnician> tech)
 {
   if(!AuthenticationService::instance().has_role(UserRole::ADMIN)) {
-    throw AccessDeniedException("Admin privileges required to save technicians"
+    throw AccessDeniedException(
+        "Admin privileges required to save technicians"
     );
   }
   TechnicianRepository::instance().save(tech);

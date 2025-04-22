@@ -1,5 +1,6 @@
 #pragma once
 
+#include <QShowEvent>
 #include <QWidget>
 
 class QPushButton;
@@ -15,9 +16,13 @@ class TechniciansPage : public QWidget
 public:
   explicit TechniciansPage(QWidget *parent);
 
+protected:
+  void showEvent(QShowEvent *event) override;
+
 private:
   void                    setup_ui();
   void                    setup_connects();
+  void                    update_ui_for_current_role();
 
   QPushButton            *m_create_button;
   CreateTechnicianDialog *m_create_dialog;

@@ -11,7 +11,7 @@ NavigationBar::NavigationBar(QWidget *parent) : QTabBar(parent)
 void NavigationBar::setup_ui()
 {
   const std::vector<QString> labels = {
-      "Interventions", "Technicians", "Parameters", "Connexion / Roles"
+      "Interventions", "Technicians", "Parameters", "Account"
   };
 
   const std::vector<QString> icons = {

@@ -10,12 +10,12 @@ class NavigationBar : public QTabBar
 
 public:
   explicit NavigationBar(QWidget *parent = nullptr);
+  QPixmap paint_svg(const QString &path) const;
 
 signals:
   void tabChanged(int index);
 
 private:
-  void    setup_ui();
-  void    setup_connects();
-  QPixmap paint_svg(const QString &path) const;
+  void setup_ui();
+  void setup_connects();
 };

@@ -21,71 +21,87 @@ LoginPage::LoginPage(QWidget *parent) : QWidget(parent)
 
 void LoginPage::setup_ui()
 {
-  auto *main_layout = new QVBoxLayout(this);
-  main_layout->setAlignment(Qt::AlignCenter);
+    auto *main_layout = new QVBoxLayout(this);
+    main_layout->setAlignment(Qt::AlignCenter);
+    main_layout->setContentsMargins(40, 40, 40, 40);
+    main_layout->setSpacing(20);
 
-  auto *title_label = new QLabel("TechMa Account", this);
-  title_label->setObjectName("Title");
-  title_label->setAlignment(Qt::AlignCenter);
+    auto *card = new QWidget(this);
+    auto *card_layout = new QVBoxLayout(card);
+    card_layout->setSpacing(20);
+    card_layout->setContentsMargins(30, 30, 30, 30);
+    card_layout->setAlignment(Qt::AlignCenter);
 
-  auto *form_layout = new QFormLayout();
+    auto *title_label = new QLabel("TechMa Account", card);
+    title_label->setObjectName("Title");
+    title_label->setAlignment(Qt::AlignCenter);
 
-  m_username_input = new QLineEdit(this);
-  m_username_input->setPlaceholderText("Username");
-  form_layout->addRow("Username:", m_username_input);
+    auto *form_container = new QWidget(card);
+    auto *form_container_layout = new QFormLayout(form_container);
+    form_container_layout->setLabelAlignment(Qt::AlignRight);
+    form_container_layout->setFormAlignment(Qt::AlignHCenter);
+    form_container_layout->setHorizontalSpacing(15);
+    form_container_layout->setVerticalSpacing(10);
 
-  m_password_input = new QLineEdit(this);
-  m_password_input->setPlaceholderText("Password");
-  m_password_input->setEchoMode(QLineEdit::Password);
-  form_layout->addRow("Password:", m_password_input);
+    m_username_input = new QLineEdit(form_container);
+    m_username_input->setPlaceholderText("Username");
+    m_username_input->setMaximumWidth(300);
 
-  auto *btn_layout = new QHBoxLayout();
+    m_password_input = new QLineEdit(form_container);
+    m_password_input->setPlaceholderText("Password");
+    m_password_input->setEchoMode(QLineEdit::Password);
+    m_password_input->setMaximumWidth(300);
 
-  m_login_button = new QPushButton("Login", this);
-  m_login_button->setIcon(
-      tinted_icon(":/styles/icons/navigation_bar/log-in.svg", QColor("#6B6BFF"))
-  );
+    form_container_layout->addRow("Username:", m_username_input);
+    form_container_layout->addRow("Password:", m_password_input);
 
-  m_guest_button = new QPushButton("Continue as Guest", this);
+    auto *btn_layout = new QHBoxLayout();
+    btn_layout->setSpacing(15);
+    btn_layout->setAlignment(Qt::AlignCenter);
 
-  m_logout_button = new QPushButton("Logout", this);
-  m_logout_button->setIcon(tinted_icon(
-      ":/styles/icons/navigation_bar/log-out.svg", QColor("#FF6B6B")
-  ));
-  m_logout_button->setVisible(false);
+    m_login_button = new QPushButton("Login", card);
+    m_login_button->setIcon(tinted_icon(":/styles/icons/navigation_bar/log-in.svg", QColor("#6B6BFF")));
+    m_login_button->setMaximumWidth(150);
 
-  btn_layout->addWidget(m_login_button);
-  btn_layout->addWidget(m_guest_button);
-  btn_layout->addWidget(m_logout_button);
+    m_guest_button = new QPushButton("Continue as Guest", card);
+    m_guest_button->setMaximumWidth(150);
 
-  m_status_label = new QLabel(this);
-  m_status_label->setStyleSheet("color: red;");
-  m_status_label->setAlignment(Qt::AlignCenter);
+    m_logout_button = new QPushButton("Logout", card);
+    m_logout_button->setIcon(tinted_icon(":/styles/icons/navigation_bar/log-out.svg", QColor("#FF6B6B")));
+    m_logout_button->setVisible(false);
+    m_logout_button->setMaximumWidth(150);
 
-  auto *hints_label = new QLabel(this);
-  hints_label->setText("Available accounts for demo:\n"
-                       "- Username: admin, Password: admin123 (Admin)\n"
-                       "- Username: tech, Password: tech123 (Technician)\n"
-                       "- Username: guest, Password: guest123 (Guest)");
-  hints_label->setStyleSheet("color: #666; font-size: 10pt;");
-  hints_label->setAlignment(Qt::AlignCenter);
+    btn_layout->addWidget(m_login_button);
+    btn_layout->addWidget(m_guest_button);
+    btn_layout->addWidget(m_logout_button);
 
-  m_user_info = new QLabel(this);
-  m_user_info->setStyleSheet("color: #6B6BFF; font-weight: bold;");
-  m_user_info->setAlignment(Qt::AlignCenter);
-  m_user_info->setVisible(false);
+    m_status_label = new QLabel(card);
+    m_status_label->setAlignment(Qt::AlignCenter);
 
-  main_layout->addWidget(title_label);
-  main_layout->addSpacing(20);
-  main_layout->addLayout(form_layout);
-  main_layout->addSpacing(10);
-  main_layout->addLayout(btn_layout);
-  main_layout->addWidget(m_status_label);
-  main_layout->addWidget(m_user_info);
-  main_layout->addSpacing(30);
-  main_layout->addWidget(hints_label);
+    m_user_info = new QLabel(card);
+    m_user_info->setAlignment(Qt::AlignCenter);
+    m_user_info->setVisible(false);
 
-  setLayout(main_layout);
+    auto *hints_label = new QLabel(card);
+    hints_label->setText(
+        "Available accounts for demo:\n"
+        "- Username: admin, Password: admin123 (Admin)\n"
+        "- Username: tech, Password: tech123 (Technician)\n"
+        "- Username: guest, Password: guest123 (Guest)"
+    );
+    hints_label->setAlignment(Qt::AlignCenter);
+
+    card_layout->addWidget(title_label);
+    card_layout->addWidget(form_container);        
+    card_layout->addSpacing(10);
+    card_layout->addLayout(btn_layout);
+    card_layout->addWidget(m_status_label);
+    card_layout->addWidget(m_user_info);
+    card_layout->addSpacing(20);
+    card_layout->addWidget(hints_label);
+
+    main_layout->addWidget(card);
+    setLayout(main_layout);
 }
 
 void LoginPage::setup_connects()

@@ -1,22 +1,28 @@
 #include "TechMa/Views/Pages/TechniciansPage.h"
-#include "TechMa/Repository/TechnicianRepository.h"
+#include "TechMa/Authentication/UserAuthentication.h"
+#include "TechMa/Repository/TechnicianRepositoryProxy.h"
 #include "TechMa/Technician/BasicTechnician.h"
 #include "TechMa/Technician/ExpertiseDecorator.h"
 #include "TechMa/Views/Widgets/CreateTechnicianDialog.h"
 #include "TechMa/Views/Widgets/EntityEditorLayout.h"
 #include "TechMa/Views/Widgets/TechnicianEditPanel.h"
 #include "TechMa/Views/Widgets/TechniciansListView.h"
+#include "TechMa/Repository/TechnicianRepositoryProxy.h"
 
 #include <QDialog>
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QListWidget>
+#include <QMessageBox>
 #include <QPushButton>
+#include <QFormLayout> 
 
 TechniciansPage::TechniciansPage(QWidget *parent) : QWidget(parent)
 {
   setup_ui();
   setup_connects();
+
+  update_ui_for_current_role();
 }
 
 void TechniciansPage::setup_ui()
@@ -40,23 +46,29 @@ void TechniciansPage::setup_ui()
 void TechniciansPage::setup_connects()
 {
   connect(m_create_button, &QPushButton::clicked, m_create_dialog, [this]() {
-    if(m_create_dialog->exec() == QDialog::Accepted) {
-      auto  full_name           = m_create_dialog->full_name();
-      auto  selected_expertises = m_create_dialog->selected_expertises();
+    try {
+      if(m_create_dialog->exec() == QDialog::Accepted) {
+        auto  full_name           = m_create_dialog->full_name();
+        auto  selected_expertises = m_create_dialog->selected_expertises();
 
-      auto &technician_repository = TechnicianRepository::instance();
+        auto &technician_repository = TechnicianRepositoryProxy::instance();
 
-      std::shared_ptr<ATechnician> technician =
-          std::make_shared<BasicTechnician>(
-              technician_repository.next_id(), full_name.toStdString()
-          );
+        std::shared_ptr<ATechnician> technician =
+            std::make_shared<BasicTechnician>(
+                technician_repository.next_id(), full_name.toStdString()
+            );
 
-      for(const auto &expertise : selected_expertises) {
-        technician =
-            std::make_shared<ExpertiseDecorator>(technician, expertise);
+        for(const auto &expertise : selected_expertises) {
+          technician =
+              std::make_shared<ExpertiseDecorator>(technician, expertise);
+        }
+
+        technician_repository.save(technician);
       }
-
-      technician_repository.save(technician);
+    } catch(const AccessDeniedException &e) {
+      QMessageBox::warning(
+          this, "Access Denied", QString::fromStdString(e.what())
+      );
     }
   });
 
@@ -65,7 +77,7 @@ void TechniciansPage::setup_connects()
       [this](int id) {
         m_selected_technician_id = id;
 
-        const auto tech = TechnicianRepository::instance().find_by_id(id);
+        const auto tech = TechnicianRepositoryProxy::instance().find_by_id(id);
         if(!tech)
           return;
 
@@ -76,6 +88,8 @@ void TechniciansPage::setup_connects()
         );
 
         m_edit_panel->setVisible(true);
+
+        update_ui_for_current_role();
       }
   );
 
@@ -83,16 +97,53 @@ void TechniciansPage::setup_connects()
     if(!m_selected_technician_id.has_value())
       return;
 
-    const auto id         = *m_selected_technician_id;
-    const auto name       = m_edit_panel->name().toStdString();
-    const auto expertises = m_edit_panel->selected_expertises();
+    try {
+      const auto id         = *m_selected_technician_id;
+      const auto name       = m_edit_panel->name().toStdString();
+      const auto expertises = m_edit_panel->selected_expertises();
 
-    std::shared_ptr<ATechnician> technician =
-        std::make_shared<BasicTechnician>(id, name);
+      std::shared_ptr<ATechnician> technician =
+          std::make_shared<BasicTechnician>(id, name);
 
-    for(const auto &exp : expertises)
-      technician = std::make_shared<ExpertiseDecorator>(technician, exp);
+      for(const auto &exp : expertises)
+        technician = std::make_shared<ExpertiseDecorator>(technician, exp);
 
-    TechnicianRepository::instance().save(technician);
+      TechnicianRepositoryProxy::instance().save(technician);
+    } catch(const AccessDeniedException &e) {
+      QMessageBox::warning(
+          this, "Access Denied", QString::fromStdString(e.what())
+      );
+    }
   });
+}
+
+void TechniciansPage::update_ui_for_current_role()
+{
+  bool is_admin = AuthenticationService::instance().has_role(UserRole::ADMIN);
+
+  m_create_button->setEnabled(is_admin);
+  m_create_button->setVisible(is_admin);
+
+  if(m_edit_panel) {
+    m_edit_panel->save_button()->setEnabled(is_admin);
+
+    if(!is_admin && m_edit_panel->isVisible()) {
+      QLabel *warning = new QLabel(
+          "View only mode. Admin access required to edit.", m_edit_panel
+      );
+      warning->setStyleSheet("color: red;");
+
+      QFormLayout *layout = qobject_cast<QFormLayout *>(m_edit_panel->layout());
+      if(layout) {
+        layout->addRow("", warning);
+      }
+    }
+  }
+}
+
+void TechniciansPage::showEvent(QShowEvent *event)
+{
+  QWidget::showEvent(event);
+
+  update_ui_for_current_role();
 }

@@ -95,26 +95,14 @@ void TechMapp::setup_ui()
 
   setCentralWidget(central);
 
-  auto statusBar = new QStatusBar(this);
-  auto logoutBtn = new QPushButton("Logout", statusBar);
-
-  connect(
-      logoutBtn, &QPushButton::clicked, this, &TechMapp::on_logout_requested
-  );
-
-  statusBar->addPermanentWidget(logoutBtn);
-  setStatusBar(statusBar);
+  setStatusBar(new QStatusBar(this));
 }
 
 void TechMapp::setup_connects()
 {
   connect(
       m_navigation_bar, &NavigationBar::tabChanged, this,
-      [this](int index) {
-        if(m_pages->currentIndex() != 3) {
-          m_pages->setCurrentIndex(index);
-        }
-      }
+      [this](int index) { m_pages->setCurrentIndex(index); }
   );
 
   connect(
@@ -138,10 +126,6 @@ void TechMapp::on_login_successful(UserRole role)
 
 void TechMapp::on_logout_requested()
 {
-  AuthenticationService::instance().logout();
-
-  m_pages->setCurrentIndex(3);
-
   update_ui_for_role(UserRole::GUEST);
 }
 

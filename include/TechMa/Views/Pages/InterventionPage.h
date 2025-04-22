@@ -1,5 +1,6 @@
 #pragma once
 
+#include <QShowEvent>
 #include <QWidget>
 #include <optional>
 
@@ -16,9 +17,13 @@ class InterventionPage : public QWidget
 public:
   explicit InterventionPage(QWidget *parent = nullptr);
 
+protected:
+  void showEvent(QShowEvent *event) override;
+
 private:
   void                      setup_ui();
   void                      setup_connects();
+  void                      update_ui_for_current_role();
 
   EntityEditorLayout       *m_layout;
   QPushButton              *m_create_button;

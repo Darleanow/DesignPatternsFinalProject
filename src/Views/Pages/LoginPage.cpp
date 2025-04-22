@@ -43,15 +43,15 @@ void LoginPage::setup_ui()
 
   m_login_button = new QPushButton("Login", this);
   m_login_button->setIcon(
-      tinted_icon(":/styles/icons/log-in.svg", QColor("#6B6BFF"))
+      tinted_icon(":/styles/icons/navigation_bar/log-in.svg", QColor("#6B6BFF"))
   );
 
   m_guest_button = new QPushButton("Continue as Guest", this);
 
   m_logout_button = new QPushButton("Logout", this);
-  m_logout_button->setIcon(
-      tinted_icon(":/styles/icons/log-out.svg", QColor("#FF6B6B"))
-  );
+  m_logout_button->setIcon(tinted_icon(
+      ":/styles/icons/navigation_bar/log-out.svg", QColor("#FF6B6B")
+  ));
   m_logout_button->setVisible(false);
 
   btn_layout->addWidget(m_login_button);
@@ -215,13 +215,23 @@ void LoginPage::showEvent(QShowEvent *event)
 QIcon LoginPage::tinted_icon(const QString &path, const QColor &color) const
 {
   QPixmap src(path);
+  if(src.isNull()) {
+    return QIcon();
+  }
+
   QPixmap dst(src.size());
   dst.fill(Qt::transparent);
+
   QPainter p(&dst);
+  if(!p.isActive()) {
+    return QIcon(src);
+  }
+
   p.setCompositionMode(QPainter::CompositionMode_Source);
   p.drawPixmap(0, 0, src);
   p.setCompositionMode(QPainter::CompositionMode_SourceIn);
   p.fillRect(dst.rect(), color);
   p.end();
+
   return QIcon(dst);
 }

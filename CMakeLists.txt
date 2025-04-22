@@ -16,6 +16,12 @@ add_executable(
 
   src/main.cpp
   
+  src/Authentication/UserAuthentication.cpp
+  
+  src/Repository/TechnicianRepositoryProxy.cpp
+  
+  src/Repository/InterventionRepositoryProxy.cpp
+  
   src/Technician/ExpertiseDecorator.cpp
   src/Technician/TechnicianDecorator.cpp
   src/Technician/BasicTechnician.cpp
@@ -33,6 +39,9 @@ add_executable(
   src/Views/TechMapp.cpp
   include/TechMa/Views/TechMapp.h
 
+  src/Views/Pages/LoginPage.cpp
+  include/TechMa/Views/Pages/LoginPage.h
+  
   src/Views/Pages/InterventionPage.cpp
   include/TechMa/Views/Pages/InterventionPage.h 
 

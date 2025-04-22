@@ -186,7 +186,7 @@ std::optional<InterventionData>
   );
   data.type =
       static_cast<InterventionType>(m_type_input->currentData().toInt());
-  data.status   = InterventionStatus::PENDING; // valeur par défaut
+  data.status   = InterventionStatus::PENDING;
   data.location = Location {
       m_location_input->text().toStdString(),
       {0, 0}

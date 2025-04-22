@@ -20,8 +20,7 @@ public:
 
   int                                         next_id();
 
-  // Chose to use pointers instead of smart memory as observers will be Qt
-  // widgets
+
   void subscribe(ATechnicianObserver *observer);
   void unsubscribe(ATechnicianObserver *observer);
 

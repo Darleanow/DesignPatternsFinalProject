@@ -1,0 +1,9 @@
+<map id="include/TechMa/Views/Controllers/TechListController.h" name="include/TechMa/Views/Controllers/TechListController.h">
+<area shape="rect" id="Node000001" title="Declares the TechListController class, a Qt&#45;based controller for managing technician selection UI." alt="" coords="178,5,406,45"/>
+<area shape="rect" id="Node000002" href="$TechListController_8cpp.html" title="Implements the TechListController class, which manages technician&#45;related combo boxes and observes re..." alt="" coords="5,93,173,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,53,135,96,133,91,234,48"/>
+<area shape="rect" id="Node000003" href="$CreateInterventionDialog_8cpp.html" title="Implements the CreateInterventionDialog class for creating new interventions through a Qt dialog UI." alt="" coords="198,93,386,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="295,59,295,93,289,93,289,59"/>
+<area shape="rect" id="Node000004" href="$InterventionEditPanel_8cpp.html" title="Implements the InterventionEditPanel class, a QWidget for editing intervention data." alt="" coords="411,93,635,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="356,48,473,91,471,96,354,53"/>
+</map>

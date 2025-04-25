@@ -1,0 +1,11 @@
+<map id="TechnicianRepositoryProxy::remove_by_id" name="TechnicianRepositoryProxy::remove_by_id">
+<area shape="rect" id="Node000001" title="Removes a technician by ID." alt="" coords="5,69,203,109"/>
+<area shape="rect" id="Node000002" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="251,5,416,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,67,248,46,249,52,177,72"/>
+<area shape="rect" id="Node000003" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="253,69,413,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,87,240,87,240,92,203,92"/>
+<area shape="rect" id="Node000004" href="$classTechnicianRepository.html#aead34e0a31aad6dfdf934ebd73e049bc" title="Removes a technician by their ID." alt="" coords="253,133,413,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,107,249,127,248,132,176,112"/>
+<area shape="rect" id="Node000005" href="$classTechnicianRepository.html#a9e79774ef491d6f6c28297d36c99f27d" title="Notifies all subscribed observers of repository changes." alt="" coords="464,133,624,173"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="414,151,450,151,450,156,414,156"/>
+</map>

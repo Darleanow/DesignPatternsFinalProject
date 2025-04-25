@@ -1,0 +1,15 @@
+<map id="AuthenticationService::has_role" name="AuthenticationService::has_role">
+<area shape="rect" id="Node000001" title=" " alt="" coords="537,73,703,113"/>
+<area shape="rect" id="Node000002" href="$classInterventionPage.html#a548ea550131dc31088b667d4d08b8f6e" title="Updates UI visibility and behavior based on the user&#39;s role." alt="" coords="304,41,489,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="524,82,489,77,490,71,524,76"/>
+<area shape="rect" id="Node000005" href="$classTechniciansPage.html#a4fd8ac138a0cd95efb21ddd049703220" title="Updates the UI elements based on the currently logged&#45;in user&#39;s role." alt="" coords="306,105,487,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="524,109,488,114,487,109,523,104"/>
+<area shape="rect" id="Node000003" href="$classInterventionPage.html#a1abb99ba568e63ec484d032e15498872" title="Constructs the InterventionPage widget." alt="" coords="5,5,256,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="290,46,210,33,211,28,291,41"/>
+<area shape="rect" id="Node000004" href="$classInterventionPage.html#af37ffe015d96bb0d4f9966d020708fb0" title="Handles the show event to trigger UI updates when the widget is shown." alt="" coords="25,55,236,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="291,66,236,67,236,62,290,61"/>
+<area shape="rect" id="Node000006" href="$classTechniciansPage.html#a75dff4f5c55ce446ca15957fda6a1f1e" title="Overridden show event to update UI state when the widget is shown." alt="" coords="27,108,234,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="292,126,234,125,234,120,292,120"/>
+<area shape="rect" id="Node000007" href="$classTechniciansPage.html#a63e7ceda5d2d5ec4a8a1304bfce57a1f" title="Constructs the TechniciansPage." alt="" coords="9,157,252,183"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="293,145,206,160,206,155,292,140"/>
+</map>

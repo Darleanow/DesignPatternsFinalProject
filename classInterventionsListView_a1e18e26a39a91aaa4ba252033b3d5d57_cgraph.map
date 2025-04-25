@@ -1,0 +1,26 @@
+<map id="InterventionsListView::InterventionsListView" name="InterventionsListView::InterventionsListView">
+<area shape="rect" id="Node000001" title="Constructs the list view and initializes its UI." alt="" coords="5,135,176,175"/>
+<area shape="rect" id="Node000002" href="$classInterventionsListView.html#a0291ef167cfece9054208fbc93d0bb9f" title="Connects internal signals and slots for user interaction." alt="" coords="443,73,605,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,140,429,104,430,109,176,145"/>
+<area shape="rect" id="Node000006" href="$classInterventionsListView.html#a1ff1310c5ed4a038e39dd6e71dfc1915" title="Initializes the list view UI components." alt="" coords="224,163,387,203"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="177,163,210,168,210,173,176,168"/>
+<area shape="rect" id="Node000003" href="$classInterventionRepository.html#a251502ad34f1e6636918d97e398b3d4b" title="Retrieves all interventions stored in the repository." alt="" coords="661,69,832,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="605,89,648,88,648,94,605,95"/>
+<area shape="rect" id="Node000004" href="$classInterventionRepository.html#a2e562f9d059314c9cb2fb8cc0d19008b" title="Returns the singleton instance of the repository." alt="" coords="661,133,832,173"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="600,111,659,127,658,132,599,116"/>
+<area shape="rect" id="Node000005" href="$classInterventionsListView.html#a1f1c4ca1c4c8be522cb37b1d3c388f7d" title="Emitted when a user selects an intervention from the list." alt="" coords="661,5,832,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="589,71,667,47,668,52,591,76"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="387,175,647,157,648,163,387,180"/>
+<area shape="rect" id="Node000007" href="$classInterventionsListView.html#a09c3eb5ea0586743b19fead7d7705b5e" title="Slot called when the intervention repository is updated." alt="" coords="435,191,613,231"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="387,190,422,195,421,200,387,196"/>
+<area shape="rect" id="Node000011" href="$classInterventionRepository.html#afb56a1a72a8d710be1a16589da2bd0b7" title="Subscribes a QObject to be notified of changes." alt="" coords="439,255,609,295"/>
+<area shape="poly" id="edge13_Node000006_Node000011" title=" " alt="" coords="348,200,436,240,454,247,452,252,434,245,346,205"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="551,188,601,154,660,119,674,112,676,117,663,124,603,158,554,193"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="602,188,654,174,656,179,603,193"/>
+<area shape="rect" id="Node000008" href="$classTechnicianRepository.html#abf3ba8f356e622790a4445b34046ac02" title="Retrieves all technicians in the repository." alt="" coords="667,312,827,352"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="594,229,615,241,631,255,640,270,648,284,663,298,671,303,669,308,660,302,644,287,635,273,626,259,612,245,591,233"/>
+<area shape="rect" id="Node000009" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="667,197,827,237"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="614,211,653,212,653,217,613,216"/>
+<area shape="rect" id="Node000010" href="$ExpertiseField_8h.html#a56a9a6b462a1d330a25154be696d66d5" title="Converts an ExpertiseField enum value to a human&#45;readable string." alt="" coords="707,262,786,287"/>
+<area shape="poly" id="edge12_Node000007_Node000010" title=" " alt="" coords="595,228,695,257,694,262,594,233"/>
+</map>

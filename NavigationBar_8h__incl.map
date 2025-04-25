@@ -1,0 +1,9 @@
+<map id="include/TechMa/Views/Widgets/NavigationBar.h" name="include/TechMa/Views/Widgets/NavigationBar.h">
+<area shape="rect" id="Node000001" title="Declares the NavigationBar class, a custom QTabBar with SVG icon rendering." alt="" coords="53,5,239,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,87,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,48,73,87,70,82,120,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="111,93,181,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,46,149,79,143,79,143,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="205,93,281,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="171,43,220,82,217,87,168,48"/>
+</map>

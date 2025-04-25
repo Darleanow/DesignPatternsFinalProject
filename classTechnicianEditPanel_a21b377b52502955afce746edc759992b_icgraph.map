@@ -1,0 +1,5 @@
+<map id="TechnicianEditPanel::setup_ui" name="TechnicianEditPanel::setup_ui">
+<area shape="rect" id="Node000001" title="Initializes all UI components and layout." alt="" coords="212,5,363,45"/>
+<area shape="rect" id="Node000002" href="$classTechnicianEditPanel.html#a018abeb1dd6aaa088cb8ffcc9bd875a5" title="Constructs the edit panel and initializes the UI." alt="" coords="5,5,164,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,28,164,28,164,23,198,23"/>
+</map>

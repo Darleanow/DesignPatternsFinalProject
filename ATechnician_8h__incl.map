@@ -1,0 +1,10 @@
+<map id="include/TechMa/Entities/ATechnician.h" name="include/TechMa/Entities/ATechnician.h">
+<area shape="rect" id="Node000001" title="Defines the abstract base class ATechnician representing a technician entity." alt="" coords="5,5,180,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="111,167,170,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,47,62,63,52,81,47,99,51,117,73,142,101,160,98,165,69,146,46,120,42,99,47,79,58,60,71,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="61,93,124,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="95,46,95,79,90,79,90,46"/>
+<area shape="rect" id="Node000004" href="$ExpertiseField_8h.html" title="Declares the ExpertiseField enum class representing technician specializations, and a utility functio..." alt="" coords="148,93,368,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="133,43,223,85,220,90,131,48"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="241,121,173,162,170,157,238,116"/>
+</map>

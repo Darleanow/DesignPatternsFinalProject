@@ -1,0 +1,7 @@
+<map id="include/TechMa/Views/Widgets/TechniciansListView.h" name="include/TechMa/Views/Widgets/TechniciansListView.h">
+<area shape="rect" id="Node000001" title="Declares the TechniciansListView class, a QListView for displaying and selecting technicians." alt="" coords="115,5,339,45"/>
+<area shape="rect" id="Node000002" href="$TechniciansPage_8cpp.html" title="Implements the TechniciansPage class, managing the technician creation and edition UI." alt="" coords="5,93,211,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,56,136,95,133,91,188,51"/>
+<area shape="rect" id="Node000003" href="$TechniciansListView_8cpp.html" title="Implements the TechniciansListView class, which displays a list of technicians and handles selection ..." alt="" coords="235,93,455,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,51,321,91,318,95,263,56"/>
+</map>

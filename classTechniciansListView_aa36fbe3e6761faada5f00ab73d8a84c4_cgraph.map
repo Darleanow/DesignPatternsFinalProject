@@ -1,0 +1,20 @@
+<map id="TechniciansListView::TechniciansListView" name="TechniciansListView::TechniciansListView">
+<area shape="rect" id="Node000001" title="Constructs the list view and initializes its UI and behavior." alt="" coords="5,73,165,113"/>
+<area shape="rect" id="Node000002" href="$classTechniciansListView.html#abcbdccaf85bf5a62a1c341c7db132133" title="Connects interaction events to internal logic." alt="" coords="427,5,579,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,78,413,37,414,42,166,83"/>
+<area shape="rect" id="Node000006" href="$classTechniciansListView.html#a136af4c67741eda51583f044e243e8ca" title="Initializes UI properties and internal models." alt="" coords="213,101,365,141"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="166,102,200,106,200,112,165,107"/>
+<area shape="rect" id="Node000003" href="$classTechnicianRepository.html#abf3ba8f356e622790a4445b34046ac02" title="Retrieves all technicians in the repository." alt="" coords="640,69,800,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="572,43,640,63,638,68,571,48"/>
+<area shape="rect" id="Node000004" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="640,133,800,173"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="573,43,594,55,610,72,619,88,627,104,642,119,649,124,646,129,638,123,622,107,614,90,605,75,590,59,571,48"/>
+<area shape="rect" id="Node000005" href="$classTechniciansListView.html#a23089732a81569940fd0c4c20f20a48d" title="Emitted when a technician is selected from the list." alt="" coords="641,5,799,45"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="579,23,627,23,627,28,579,28"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="321,139,363,164,414,183,472,191,531,191,587,184,638,174,639,179,588,189,531,196,471,196,413,188,361,168,318,144"/>
+<area shape="rect" id="Node000007" href="$classTechniciansListView.html#ab337e022e046d24caf8482cc7d68be6c" title="Called when the technician repository is updated." alt="" coords="413,133,592,173"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="366,130,400,135,399,141,365,135"/>
+<area shape="rect" id="Node000008" href="$classTechnicianRepository.html#aec84642514e38cee1a7089e9fbdd41a6" title="Subscribes an observer to be notified on repository changes." alt="" coords="423,69,583,109"/>
+<area shape="poly" id="edge10_Node000006_Node000008" title=" " alt="" coords="365,107,409,101,410,106,366,113"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="571,131,638,111,640,116,572,136"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="593,151,626,151,626,156,593,156"/>
+</map>

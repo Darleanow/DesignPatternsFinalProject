@@ -1,0 +1,9 @@
+<map id="InterventionEditPanel::save_button" name="InterventionEditPanel::save_button">
+<area shape="rect" id="Node000001" title="Provides access to the Save button." alt="" coords="537,23,699,63"/>
+<area shape="rect" id="Node000002" href="$classInterventionPage.html#a548ea550131dc31088b667d4d08b8f6e" title="Updates UI visibility and behavior based on the user&#39;s role." alt="" coords="304,23,489,63"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="523,46,489,46,489,41,523,41"/>
+<area shape="rect" id="Node000003" href="$classInterventionPage.html#a1abb99ba568e63ec484d032e15498872" title="Constructs the InterventionPage widget." alt="" coords="5,5,256,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="290,36,256,33,256,27,291,31"/>
+<area shape="rect" id="Node000004" href="$classInterventionPage.html#af37ffe015d96bb0d4f9966d020708fb0" title="Handles the show event to trigger UI updates when the widget is shown." alt="" coords="25,55,236,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="291,56,237,60,236,55,290,50"/>
+</map>

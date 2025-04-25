@@ -1,0 +1,7 @@
+<map id="TechnicianRepositoryProxy::subscribe" name="TechnicianRepositoryProxy::subscribe">
+<area shape="rect" id="Node000001" title="Subscribes an observer for technician repository updates." alt="" coords="5,37,203,77"/>
+<area shape="rect" id="Node000002" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="251,5,411,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,41,237,36,237,41,203,46"/>
+<area shape="rect" id="Node000003" href="$classTechnicianRepository.html#aec84642514e38cee1a7089e9fbdd41a6" title="Subscribes an observer to be notified on repository changes." alt="" coords="251,69,411,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,69,237,74,237,79,203,74"/>
+</map>

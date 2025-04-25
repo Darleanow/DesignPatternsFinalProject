@@ -1,0 +1,11 @@
+<map id="include/TechMa/Views/Widgets/NavigationBar.h" name="include/TechMa/Views/Widgets/NavigationBar.h">
+<area shape="rect" id="Node000001" title="Declares the NavigationBar class, a custom QTabBar with SVG icon rendering." alt="" coords="191,5,378,45"/>
+<area shape="rect" id="Node000002" href="$TechMapp_8h.html" title="Declares the TechMapp class, the main application window for the TechMa system." alt="" coords="95,93,261,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,56,203,95,200,91,249,52"/>
+<area shape="rect" id="Node000005" href="$NavigationBar_8cpp.html" title="Implements the NavigationBar class, a custom tab bar with icon rendering and navigation support." alt="" coords="285,93,501,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="321,52,370,91,367,95,318,56"/>
+<area shape="rect" id="Node000003" href="$TechMapp_8cpp.html" title="Implements the TechMapp class, the main application window for TechMa." alt="" coords="5,181,185,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,145,110,183,106,179,146,141"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html" title="Entry point for the TechMa application." alt="" coords="209,181,315,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="210,141,251,179,248,183,206,145"/>
+</map>

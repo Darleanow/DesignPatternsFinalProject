@@ -1,0 +1,23 @@
+<map id="AuthenticationService::current_user" name="AuthenticationService::current_user">
+<area shape="rect" id="Node000001" title=" " alt="" coords="917,64,1083,104"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#ac14065c6e2529048d568cddef19f3028" title="Attempts to log in with the provided username and password." alt="" coords="712,5,860,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="913,63,859,48,860,43,914,58"/>
+<area shape="rect" id="Node000005" href="$classLoginPage.html#ac103700888386d9b991f51467afc058c" title="Called when the widget is shown, used to reset or update UI state." alt="" coords="703,71,869,97"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="903,87,870,87,870,81,903,81"/>
+<area shape="rect" id="Node000006" href="$classTechMapp.html#ada82d1ac29bbec7da9675ae29b7b23f0" title="Updates the UI components based on the user&#39;s role." alt="" coords="707,123,865,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="914,110,860,125,859,120,913,105"/>
+<area shape="rect" id="Node000003" href="$classLoginPage.html#a7cd454f7668442d809030c3e5e6a66ea" title="Connects UI elements to their respective slots." alt="" coords="457,11,655,37"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="698,27,655,27,655,22,698,22"/>
+<area shape="rect" id="Node000004" href="$classLoginPage.html#ac80d4431cd7779e6ae5f8c3b17fe6c3f" title="Constructs the login page UI." alt="" coords="230,11,393,37"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="444,27,393,27,393,21,444,21"/>
+<area shape="rect" id="Node000007" href="$classTechMapp.html#a7a7ddf55a46e58e917e7f308161a773e" title="Called when a login is successful." alt="" coords="481,61,631,101"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="696,122,631,104,632,99,698,116"/>
+<area shape="rect" id="Node000009" href="$classTechMapp.html#ac4d485efbe0d00914dcfb9680a39ec77" title="Constructs the main application window." alt="" coords="5,162,165,187"/>
+<area shape="poly" id="edge11_Node000006_Node000009" title=" " alt="" coords="710,169,655,180,521,191,386,194,264,190,165,184,166,179,264,185,386,188,520,186,654,175,709,164"/>
+<area shape="rect" id="Node000010" href="$classTechMapp.html#a7ff2ad6699f59bc55499b83dac1a07da" title="Called when a logout is requested by the user." alt="" coords="477,125,635,165"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="693,146,636,147,636,142,693,141"/>
+<area shape="rect" id="Node000008" href="$classTechMapp.html#af0e39c1d95a040c849f8f920b4ba4ffe" title="Connects internal signals and slots for UI and authentication handling." alt="" coords="213,133,409,158"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="468,107,361,135,360,130,466,102"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="200,162,166,167,165,162,199,157"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="463,148,410,148,410,143,463,143"/>
+</map>

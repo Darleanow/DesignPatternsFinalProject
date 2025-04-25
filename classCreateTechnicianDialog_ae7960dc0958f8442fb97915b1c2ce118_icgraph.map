@@ -1,0 +1,5 @@
+<map id="CreateTechnicianDialog::setup_ui" name="CreateTechnicianDialog::setup_ui">
+<area shape="rect" id="Node000001" title="Builds and arranges the dialog&#39;s UI components." alt="" coords="236,5,411,45"/>
+<area shape="rect" id="Node000002" href="$classCreateTechnicianDialog.html#a1455bfbc9d01fc3d28103a514c5f170e" title="Constructs the dialog and initializes the UI." alt="" coords="5,5,188,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,28,188,28,188,23,222,23"/>
+</map>

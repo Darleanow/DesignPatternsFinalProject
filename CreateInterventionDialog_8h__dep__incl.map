@@ -1,0 +1,7 @@
+<map id="include/TechMa/Views/Widgets/CreateInterventionDialog.h" name="include/TechMa/Views/Widgets/CreateInterventionDialog.h">
+<area shape="rect" id="Node000001" title="Declares the CreateInterventionDialog class, a QDialog used to create new interventions." alt="" coords="118,5,323,60"/>
+<area shape="rect" id="Node000002" href="$InterventionPage_8cpp.html" title="Implements the InterventionPage class, a QWidget handling intervention&#45;related UI and interactions." alt="" coords="5,108,215,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,71,134,110,131,106,177,67"/>
+<area shape="rect" id="Node000003" href="$CreateInterventionDialog_8cpp.html" title="Implements the CreateInterventionDialog class for creating new interventions through a Qt dialog UI." alt="" coords="239,108,427,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="265,67,312,106,308,110,261,71"/>
+</map>

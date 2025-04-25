@@ -1,0 +1,20 @@
+<map id="TechListController::rebuild_list" name="TechListController::rebuild_list">
+<area shape="rect" id="Node000001" title="Rebuilds the technician list in the UI." alt="" coords="687,165,825,205"/>
+<area shape="rect" id="Node000002" href="$classTechListController.html#a4a07a8d1f3948b7f326d8c0e0bc9ab06" title="Updates the technician list based on current combo box selections." alt="" coords="483,165,639,205"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="673,188,639,188,639,183,673,183"/>
+<area shape="rect" id="Node000003" href="$classCreateInterventionDialog.html#a2dea7e4f88ec1ff92ff0abfc79cc02ec" title="Clears all input fields in the form." alt="" coords="248,37,435,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="526,158,483,124,433,92,408,80,410,75,436,87,486,120,529,154"/>
+<area shape="rect" id="Node000006" href="$classInterventionEditPanel.html#a66c7def9a4454115373cb8530c5f2320" title="Loads intervention data into the form for editing." alt="" coords="261,101,422,141"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="478,164,410,144,411,139,479,159"/>
+<area shape="rect" id="Node000007" href="$classTechListController.html#af56c5f4d7779243345cf71dd2f536491" title="Reacts to updates in the technician repository." alt="" coords="252,165,431,205"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="469,188,431,188,431,183,469,183"/>
+<area shape="rect" id="Node000008" href="$classTechListController.html#a1e7a891dcb52fb54659fbacded0a06d3" title="Sets up Qt signal/slot connections." alt="" coords="266,229,417,269"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="479,212,411,232,410,227,478,207"/>
+<area shape="rect" id="Node000009" href="$classTechListController.html#a4bd566643a813622c34b9edc27b942ac" title="Constructs a TechListController." alt="" coords="29,257,176,297"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="533,218,490,254,464,271,436,284,368,299,299,304,234,301,176,294,177,289,234,296,299,299,368,294,434,279,461,266,487,250,530,213"/>
+<area shape="rect" id="Node000004" href="$classCreateInterventionDialog.html#a90408e026b2b8ba7a0da0179623c3e37" title="Constructs the dialog." alt="" coords="5,5,200,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="234,46,200,41,200,36,235,40"/>
+<area shape="rect" id="Node000005" href="$classCreateInterventionDialog.html#aa1cf75321fa161537f481c9eb80ba011" title="Handles the show event to prepare or reset the dialog." alt="" coords="9,69,196,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="235,74,197,79,196,74,234,69"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="253,262,176,271,176,266,252,257"/>
+</map>

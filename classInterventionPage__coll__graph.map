@@ -1,0 +1,26 @@
+<map id="InterventionPage" name="InterventionPage">
+<area shape="rect" id="Node000001" title="Main QWidget that displays and manages all intervention&#45;related UI components." alt="" coords="868,89,1000,114"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="242,22,321,47"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,22,432,10,561,3,632,4,704,11,776,24,845,44,885,64,918,86,915,90,883,69,843,49,775,29,703,16,631,10,561,8,432,15,335,28"/>
+<area shape="rect" id="Node000003" href="$classEntityEditorLayout.html" title="A UI layout widget that provides a reusable interface structure with a header, action button,..." alt="" coords="542,39,685,65"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="335,35,542,46,541,51,334,40"/>
+<area shape="rect" id="Node000006" href="$classInterventionEditPanel.html" title="A QWidget&#45;based panel for editing an existing intervention." alt="" coords="533,89,694,114"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="335,43,550,86,549,91,334,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="699,59,844,80,876,86,875,91,844,85,698,64"/>
+<area shape="rect" id="Node000004" href="$classInterventionsListView.html" title="A custom QListView that displays a list of interventions and emits selection signals." alt="" coords="532,207,695,233"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="697,202,769,183,843,156,882,135,914,112,917,117,885,139,845,161,771,188,698,207"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="238,229,325,254"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="338,235,532,223,532,228,338,240"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="708,99,868,99,868,104,708,104"/>
+<area shape="rect" id="Node000007" href="$classTechListController.html" title="Controls UI elements related to technician selection and observes technician repository updates." alt="" coords="212,110,351,135"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="364,115,532,104,532,109,364,120"/>
+<area shape="rect" id="Node000010" href="$classCreateInterventionDialog.html" title="A modal dialog that allows users to input data for a new intervention." alt="" coords="520,138,707,163"/>
+<area shape="poly" id="edge13_Node000010_Node000007" title=" " alt="" coords="365,134,375,135,520,145,520,150,374,140,364,139"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="47,86,121,111"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="136,102,212,112,211,117,135,108"/>
+<area shape="rect" id="Node000009" href="$classATechnicianObserver.html" title="Interface for classes that need to observe changes in the technician repository." alt="" coords="5,135,163,161"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="176,134,211,129,212,134,177,139"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="720,137,844,119,880,111,881,117,844,124,721,142"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="244,179,319,205"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="333,183,520,160,520,165,333,188"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="InterventionRepository::save" name="InterventionRepository::save">
+<area shape="rect" id="Node000001" title="Saves a new or existing intervention in the repository." alt="" coords="261,5,432,45"/>
+<area shape="rect" id="Node000002" href="$classInterventionRepositoryProxy.html#a67c7a6bccdeb7138f6891682f1d62bfc" title="Saves an intervention to the repository." alt="" coords="5,5,213,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,28,213,28,213,23,248,23"/>
+</map>

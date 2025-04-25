@@ -1,0 +1,11 @@
+<map id="LoginPage::update_ui_for_logged_in_user" name="LoginPage::update_ui_for_logged_in_user">
+<area shape="rect" id="Node000001" title="Updates the UI to reflect the state of a logged&#45;in user." alt="" coords="676,35,836,75"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#ac14065c6e2529048d568cddef19f3028" title="Attempts to log in with the provided username and password." alt="" coords="471,5,619,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="662,44,618,38,619,33,663,39"/>
+<area shape="rect" id="Node000005" href="$classLoginPage.html#ac103700888386d9b991f51467afc058c" title="Called when the widget is shown, used to reset or update UI state." alt="" coords="461,70,628,95"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="663,70,628,74,628,69,662,64"/>
+<area shape="rect" id="Node000003" href="$classLoginPage.html#a7cd454f7668442d809030c3e5e6a66ea" title="Connects UI elements to their respective slots." alt="" coords="216,13,413,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,28,414,28,414,23,457,23"/>
+<area shape="rect" id="Node000004" href="$classLoginPage.html#ac80d4431cd7779e6ae5f8c3b17fe6c3f" title="Constructs the login page UI." alt="" coords="5,13,168,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,28,168,28,168,23,202,23"/>
+</map>

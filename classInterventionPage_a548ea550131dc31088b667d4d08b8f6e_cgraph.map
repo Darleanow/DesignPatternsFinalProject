@@ -1,0 +1,9 @@
+<map id="InterventionPage::update_ui_for_current_role" name="InterventionPage::update_ui_for_current_role">
+<area shape="rect" id="Node000001" title="Updates UI visibility and behavior based on the user&#39;s role." alt="" coords="5,69,191,109"/>
+<area shape="rect" id="Node000002" href="$classAuthenticationService.html#ad982cbb3ee4ae8471146c296f47ad30d" title=" " alt="" coords="239,5,404,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,67,237,47,239,52,169,72"/>
+<area shape="rect" id="Node000003" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="239,69,404,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,87,225,87,225,92,191,92"/>
+<area shape="rect" id="Node000004" href="$classInterventionEditPanel.html#aae70b6d931060e223a1b531811eecf90" title="Provides access to the Save button." alt="" coords="241,133,402,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="169,107,239,127,237,132,168,112"/>
+</map>

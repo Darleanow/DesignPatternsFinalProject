@@ -1,0 +1,7 @@
+<map id="TechniciansListView::on_repository_updated" name="TechniciansListView::on_repository_updated">
+<area shape="rect" id="Node000001" title="Called when the technician repository is updated." alt="" coords="413,5,592,45"/>
+<area shape="rect" id="Node000002" href="$classTechniciansListView.html#a136af4c67741eda51583f044e243e8ca" title="Initializes UI properties and internal models." alt="" coords="213,5,365,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="400,28,366,28,366,23,400,23"/>
+<area shape="rect" id="Node000003" href="$classTechniciansListView.html#aa36fbe3e6761faada5f00ab73d8a84c4" title="Constructs the list view and initializes its UI and behavior." alt="" coords="5,5,165,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,28,165,28,165,23,199,23"/>
+</map>

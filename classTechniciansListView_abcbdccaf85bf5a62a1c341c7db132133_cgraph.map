@@ -1,0 +1,9 @@
+<map id="TechniciansListView::setup_connects" name="TechniciansListView::setup_connects">
+<area shape="rect" id="Node000001" title="Connects interaction events to internal logic." alt="" coords="5,69,157,109"/>
+<area shape="rect" id="Node000002" href="$classTechnicianRepository.html#abf3ba8f356e622790a4445b34046ac02" title="Retrieves all technicians in the repository." alt="" coords="205,5,365,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,67,207,47,209,52,147,72"/>
+<area shape="rect" id="Node000003" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="205,69,365,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,87,192,87,192,92,158,92"/>
+<area shape="rect" id="Node000004" href="$classTechniciansListView.html#a23089732a81569940fd0c4c20f20a48d" title="Emitted when a technician is selected from the list." alt="" coords="206,133,365,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="147,107,209,127,207,132,145,112"/>
+</map>

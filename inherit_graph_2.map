@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classATechnicianObserver.html" title="Interface for classes that need to observe changes in the technician repository." alt="" coords="5,55,163,80"/>
+<area shape="rect" id="Node000001" href="$classTechListController.html" title="Controls UI elements related to technician selection and observes technician repository updates." alt="" coords="223,5,361,31"/>
+<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="151,49,237,28,238,33,152,54"/>
+<area shape="rect" id="Node000003" href="$classTechniciansListView.html" title="Custom list view displaying available technicians and observing changes in the technician repository." alt="" coords="216,55,368,80"/>
+<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="177,65,216,65,216,70,177,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="41,104,127,129"/>
+<area shape="poly" id="edge8_Node000004_Node000003" title=" " alt="" coords="140,101,237,77,238,83,141,106"/>
+<area shape="rect" id="Node000005" href="$classInterventionsListView.html" title="A custom QListView that displays a list of interventions and emits selection signals." alt="" coords="211,104,373,129"/>
+<area shape="poly" id="edge7_Node000004_Node000005" title=" " alt="" coords="141,114,210,114,210,119,141,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="47,5,121,31"/>
+<area shape="poly" id="edge9_Node000002_Node000001" title=" " alt="" coords="135,15,222,15,222,21,135,21"/>
+</map>

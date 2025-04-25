@@ -1,0 +1,5 @@
+<map id="TechnicianEditPanel::set_expertises" name="TechnicianEditPanel::set_expertises">
+<area shape="rect" id="Node000001" title="Sets the selected expertise fields in the list." alt="" coords="204,5,355,45"/>
+<area shape="rect" id="Node000002" href="$classTechnicianEditPanel.html#a97a82e304a62d5c3b4c4798972d5c583" title="Loads a technician into the panel for editing." alt="" coords="5,5,156,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,28,156,28,156,23,191,23"/>
+</map>

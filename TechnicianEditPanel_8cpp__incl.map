@@ -1,0 +1,22 @@
+<map id="src/Views/Widgets/TechnicianEditPanel.cpp" name="src/Views/Widgets/TechnicianEditPanel.cpp">
+<area shape="rect" id="Node000001" title="Implements the TechnicianEditPanel class, providing a UI panel for editing technician data." alt="" coords="393,5,606,45"/>
+<area shape="rect" id="Node000002" href="$TechnicianEditPanel_8h.html" title="Declares the TechnicianEditPanel class, a widget to edit a technician&#39;s name and expertise fields." alt="" coords="190,93,361,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="451,48,338,91,336,86,449,43"/>
+<area shape="rect" id="Node000003" href="$ExpertiseField_8h.html" title="Declares the ExpertiseField enum class representing technician specializations, and a utility functio..." alt="" coords="5,181,225,207"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="393,31,340,37,284,49,230,68,180,96,162,111,147,131,126,170,122,167,142,128,158,108,176,91,227,63,283,44,339,32,392,25"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="385,101,494,126"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="488,47,458,90,453,87,484,44"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="519,101,603,126"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="515,44,547,88,542,91,511,47"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="627,101,729,126"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="540,43,643,92,641,97,537,48"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="753,101,859,126"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="569,43,741,91,754,94,753,99,740,96,567,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="238,136,152,178,150,173,236,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="249,181,328,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="281,133,287,167,282,168,276,134"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="352,181,415,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="303,131,357,171,354,175,300,136"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="86,255,145,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,207,118,241,113,241,113,207"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="LoginPage::setup_ui" name="LoginPage::setup_ui">
+<area shape="rect" id="Node000001" title="Initializes and arranges the UI components." alt="" coords="5,5,156,31"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#a24d5e969c1cefee784c6b395d5b1c016" title="Applies a tint to an icon loaded from the given path." alt="" coords="204,5,372,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,15,191,15,191,21,156,21"/>
+</map>

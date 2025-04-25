@@ -1,0 +1,7 @@
+<map id="ParametersPage::ParametersPage" name="ParametersPage::ParametersPage">
+<area shape="rect" id="Node000001" title="Constructs the ParametersPage widget." alt="" coords="5,42,245,67"/>
+<area shape="rect" id="Node000002" href="$classParametersPage.html#a5c48580d591d89eabdf44bab2814f74f" title="Connects UI components to relevant logic or signals." alt="" coords="303,5,474,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,39,289,34,290,39,240,45"/>
+<area shape="rect" id="Node000003" href="$classParametersPage.html#af7547c1b761695472e7026848f462308" title="Sets up the UI layout and widgets." alt="" coords="293,70,484,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,65,280,68,279,74,245,70"/>
+</map>

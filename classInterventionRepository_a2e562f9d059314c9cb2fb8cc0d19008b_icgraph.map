@@ -1,0 +1,27 @@
+<map id="InterventionRepository::instance" name="InterventionRepository::instance">
+<area shape="rect" id="Node000001" title="Returns the singleton instance of the repository." alt="" coords="691,291,861,331"/>
+<area shape="rect" id="Node000002" href="$classInterventionRepositoryProxy.html#aaf94c1abb4a931bfe9996f7c17bfe40e" title="Clears all interventions from the repository." alt="" coords="435,5,643,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="764,278,748,229,723,170,687,111,666,83,641,59,623,48,626,43,644,55,670,80,692,108,728,168,753,228,769,277"/>
+<area shape="rect" id="Node000003" href="$classInterventionRepositoryProxy.html#a446bb5e711693f54cb2daa65202121e4" title="Finds an intervention by its ID." alt="" coords="435,69,643,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="758,279,739,242,713,201,680,159,641,123,621,112,624,107,644,119,684,155,717,198,743,240,762,276"/>
+<area shape="rect" id="Node000004" href="$classInterventionRepositoryProxy.html#ad422bf26adae37ae6637b52413659a41" title="Retrieves all interventions from the repository." alt="" coords="435,133,643,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="748,282,701,233,672,209,641,188,617,176,619,171,644,183,676,205,705,229,751,278"/>
+<area shape="rect" id="Node000005" href="$classInterventionRepositoryProxy.html#a9abf79cfa8d94b22f4a518cf121faf2a" title="Returns the next available ID for a new intervention." alt="" coords="435,197,643,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="722,287,642,252,608,240,610,235,644,247,724,282"/>
+<area shape="rect" id="Node000006" href="$classInterventionsListView.html#a09c3eb5ea0586743b19fead7d7705b5e" title="Slot called when the intervention repository is updated." alt="" coords="449,261,628,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="677,301,628,295,629,290,677,296"/>
+<area shape="rect" id="Node000007" href="$classInterventionsListView.html#a1ff1310c5ed4a038e39dd6e71dfc1915" title="Initializes the list view UI components." alt="" coords="224,319,387,359"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="677,319,387,337,387,331,677,314"/>
+<area shape="rect" id="Node000009" href="$classInterventionRepositoryProxy.html#a67c7a6bccdeb7138f6891682f1d62bfc" title="Saves an intervention to the repository." alt="" coords="435,376,643,416"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="708,338,596,378,594,373,706,333"/>
+<area shape="rect" id="Node000010" href="$classInterventionsListView.html#a0291ef167cfece9054208fbc93d0bb9f" title="Connects internal signals and slots for user interaction." alt="" coords="224,408,387,448"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="753,343,707,391,677,414,644,430,578,448,510,454,445,452,387,446,387,441,445,447,510,449,577,443,642,426,674,409,703,387,749,340"/>
+<area shape="rect" id="Node000011" href="$classInterventionRepositoryProxy.html#a33c55d791cb43537090b8009c1f5a86a" title="Subscribes a QObject to receive update notifications." alt="" coords="435,491,643,531"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="758,344,711,409,680,444,644,474,610,493,608,488,641,470,676,440,707,406,754,341"/>
+<area shape="rect" id="Node000012" href="$classInterventionRepositoryProxy.html#a5d9c6d08ac68c94038fe334a3463c684" title="Unsubscribes a QObject from receiving update notifications." alt="" coords="435,555,643,595"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="767,345,750,390,724,443,689,498,668,523,644,545,625,557,623,552,641,541,664,519,685,495,720,441,745,387,762,343"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="444,307,388,321,386,316,443,302"/>
+<area shape="rect" id="Node000008" href="$classInterventionsListView.html#a1e18e26a39a91aaa4ba252033b3d5d57" title="Constructs the list view and initializes its UI." alt="" coords="5,351,176,391"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="211,355,177,361,176,355,210,350"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="216,407,165,393,167,388,217,402"/>
+</map>

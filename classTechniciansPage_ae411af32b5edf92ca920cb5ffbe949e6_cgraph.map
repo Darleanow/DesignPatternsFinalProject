@@ -1,0 +1,9 @@
+<map id="TechniciansPage::setup_ui" name="TechniciansPage::setup_ui">
+<area shape="rect" id="Node000001" title="Sets up the layout and UI widgets." alt="" coords="5,77,196,102"/>
+<area shape="rect" id="Node000002" href="$classEntityEditorLayout.html#aec5a1399c28c99ba38f6ab384c1e5cbb" title="Returns a pointer to the action button." alt="" coords="244,5,387,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,74,234,47,235,52,145,79"/>
+<area shape="rect" id="Node000003" href="$classEntityEditorLayout.html#a05c07f7c50a056831200d32048918549" title="Sets the widget that will appear on the left side of the main content area." alt="" coords="244,69,387,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,87,230,87,230,92,196,92"/>
+<area shape="rect" id="Node000004" href="$classEntityEditorLayout.html#ac65c199970eb9919a60381bd7f1f9d49" title="Sets the widget that will appear on the right side of the main content area." alt="" coords="244,133,387,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,100,235,127,234,132,144,105"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="TechniciansPage::TechniciansPage" name="TechniciansPage::TechniciansPage">
+<area shape="rect" id="Node000001" title="Constructs the TechniciansPage." alt="" coords="5,109,248,134"/>
+<area shape="rect" id="Node000002" href="$classTechniciansPage.html#a2672a03b37f8c4f32707e8888d733f39" title="Connects UI signals and slots for interaction logic." alt="" coords="305,44,477,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,106,291,83,292,88,187,111"/>
+<area shape="rect" id="Node000003" href="$classTechniciansPage.html#ae411af32b5edf92ca920cb5ffbe949e6" title="Sets up the layout and UI widgets." alt="" coords="296,109,487,134"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,119,282,119,282,124,248,124"/>
+<area shape="rect" id="Node000007" href="$classTechniciansPage.html#a4fd8ac138a0cd95efb21ddd049703220" title="Updates the UI elements based on the currently logged&#45;in user&#39;s role." alt="" coords="301,229,482,269"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="155,132,338,221,335,226,153,136"/>
+<area shape="rect" id="Node000004" href="$classEntityEditorLayout.html#aec5a1399c28c99ba38f6ab384c1e5cbb" title="Returns a pointer to the action button." alt="" coords="546,5,689,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="454,106,485,94,509,75,533,55,545,49,548,53,536,60,513,79,488,98,456,111"/>
+<area shape="rect" id="Node000005" href="$classEntityEditorLayout.html#a05c07f7c50a056831200d32048918549" title="Sets the widget that will appear on the left side of the main content area." alt="" coords="546,69,689,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="481,106,532,99,533,104,482,111"/>
+<area shape="rect" id="Node000006" href="$classEntityEditorLayout.html#ac65c199970eb9919a60381bd7f1f9d49" title="Sets the widget that will appear on the right side of the main content area." alt="" coords="546,133,689,173"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="482,131,533,139,532,144,481,137"/>
+<area shape="rect" id="Node000008" href="$classAuthenticationService.html#ad982cbb3ee4ae8471146c296f47ad30d" title=" " alt="" coords="535,197,700,237"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="482,234,521,228,521,234,483,239"/>
+<area shape="rect" id="Node000009" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="535,261,700,301"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="483,260,521,265,521,270,482,265"/>
+<area shape="rect" id="Node000010" href="$classTechnicianEditPanel.html#a359eb4b209c240601b303bc21d2409f1" title="Provides access to the save button." alt="" coords="542,325,693,365"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="437,267,536,311,552,318,550,323,534,316,435,272"/>
+</map>

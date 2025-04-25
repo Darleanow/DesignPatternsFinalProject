@@ -1,0 +1,5 @@
+<map id="LoginPage::setup_ui" name="LoginPage::setup_ui">
+<area shape="rect" id="Node000001" title="Initializes and arranges the UI components." alt="" coords="216,5,367,31"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#ac80d4431cd7779e6ae5f8c3b17fe6c3f" title="Constructs the login page UI." alt="" coords="5,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,21,168,21,168,15,202,15"/>
+</map>

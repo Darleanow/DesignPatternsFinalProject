@@ -1,0 +1,25 @@
+<map id="include/TechMa/Views/TechMapp.h" name="include/TechMa/Views/TechMapp.h">
+<area shape="rect" id="Node000001" title="Declares the TechMapp class, the main application window for the TechMa system." alt="" coords="515,5,680,45"/>
+<area shape="rect" id="Node000002" href="$UserAuthentication_8h.html" title="Declaration of the User and AuthenticationService classes for managing authentication." alt="" coords="149,93,320,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="518,48,328,93,327,88,517,43"/>
+<area shape="rect" id="Node000007" href="$NavigationBar_8h.html" title="Declares the NavigationBar class, a custom QTabBar with SVG icon rendering." alt="" coords="441,93,612,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="584,47,553,85,549,81,580,44"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="636,101,703,126"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="615,44,653,88,649,91,611,47"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="727,101,843,126"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="640,43,749,93,747,98,637,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,83,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,136,86,179,84,174,188,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,181,181,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="214,136,170,174,166,170,211,132"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="205,181,264,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="237,134,237,167,232,167,232,134"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="289,181,413,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="264,131,324,171,321,176,261,136"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="437,181,518,207"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="517,135,494,171,490,168,512,132"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="542,181,613,207"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="541,132,565,168,560,171,537,135"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="637,181,713,207"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="563,131,642,172,639,177,561,136"/>
+</map>

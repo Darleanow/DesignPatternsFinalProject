@@ -1,0 +1,21 @@
+<map id="TechniciansPage" name="TechniciansPage">
+<area shape="rect" id="Node000001" title="A QWidget page for displaying, creating, and editing technicians." alt="" coords="548,81,676,106"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="45,32,123,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,29,212,16,301,7,371,3,440,11,525,36,564,56,596,78,593,83,562,61,523,41,439,16,371,8,301,12,212,22,138,34"/>
+<area shape="rect" id="Node000008" href="$classEntityEditorLayout.html" title="A UI layout widget that provides a reusable interface structure with a header, action button,..." alt="" coords="228,32,371,57"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="137,42,228,42,228,47,137,47"/>
+<area shape="rect" id="Node000009" href="$classTechnicianEditPanel.html" title="A QWidget&#45;based editor for modifying technician data." alt="" coords="224,81,375,106"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="137,53,244,78,243,83,136,59"/>
+<area shape="rect" id="Node000003" href="$classCreateTechnicianDialog.html" title="A dialog UI for creating a new technician, allowing input of name and selection of expertise fields." alt="" coords="212,130,387,156"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="400,129,524,111,559,104,560,109,524,116,401,134"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,130,121,156"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="135,140,212,140,212,146,135,146"/>
+<area shape="rect" id="Node000005" href="$classTechniciansListView.html" title="Custom list view displaying available technicians and observing changes in the technician repository." alt="" coords="223,180,375,205"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="389,182,456,169,523,148,562,127,594,104,597,109,565,132,525,153,457,174,389,187"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="41,180,127,205"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="141,190,223,190,223,195,141,195"/>
+<area shape="rect" id="Node000007" href="$classATechnicianObserver.html" title="Interface for classes that need to observe changes in the technician repository." alt="" coords="5,229,163,254"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="152,223,242,202,244,208,154,228"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="384,51,524,72,555,78,554,83,524,77,384,57"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="388,91,548,91,548,96,388,96"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="TechniciansListView::setup_ui" name="TechniciansListView::setup_ui">
+<area shape="rect" id="Node000001" title="Initializes UI properties and internal models." alt="" coords="5,63,157,103"/>
+<area shape="rect" id="Node000002" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="432,5,592,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,60,205,48,315,34,418,26,419,32,316,39,206,53,152,65"/>
+<area shape="rect" id="Node000003" href="$classTechniciansListView.html#ab337e022e046d24caf8482cc7d68be6c" title="Called when the technician repository is updated." alt="" coords="205,63,384,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,80,192,80,192,85,158,85"/>
+<area shape="rect" id="Node000005" href="$classTechnicianRepository.html#aec84642514e38cee1a7089e9fbdd41a6" title="Subscribes an observer to be notified on repository changes." alt="" coords="215,127,375,167"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="150,100,215,120,214,125,148,105"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="370,60,422,46,423,51,372,65"/>
+<area shape="rect" id="Node000004" href="$classTechnicianRepository.html#abf3ba8f356e622790a4445b34046ac02" title="Retrieves all technicians in the repository." alt="" coords="432,69,592,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="385,83,418,84,418,89,384,88"/>
+</map>

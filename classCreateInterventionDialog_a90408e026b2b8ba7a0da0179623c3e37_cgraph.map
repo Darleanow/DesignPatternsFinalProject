@@ -1,0 +1,24 @@
+<map id="CreateInterventionDialog::CreateInterventionDialog" name="CreateInterventionDialog::CreateInterventionDialog">
+<area shape="rect" id="Node000001" title="Constructs the dialog." alt="" coords="5,131,200,171"/>
+<area shape="rect" id="Node000002" href="$classCreateInterventionDialog.html#a2dea7e4f88ec1ff92ff0abfc79cc02ec" title="Clears all input fields in the form." alt="" coords="248,37,435,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,128,247,87,267,79,269,84,249,92,150,133"/>
+<area shape="rect" id="Node000007" href="$classCreateInterventionDialog.html#a69bfd0a27dbcfc3c758f0df0382fd4ec" title="Connects UI components to their corresponding signals and slots." alt="" coords="248,101,435,141"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="200,136,234,132,235,137,201,141"/>
+<area shape="rect" id="Node000008" href="$classCreateInterventionDialog.html#ae13390e7cc72067554a26c96787166b1" title="Enables or disables the OK button based on form validity." alt="" coords="483,113,669,153"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="200,153,313,155,434,151,469,147,469,153,435,156,313,160,200,158"/>
+<area shape="rect" id="Node000009" href="$classCreateInterventionDialog.html#ab34044aab8aa9b63a1e9a4664cae8e30" title="Initializes and arranges all UI components." alt="" coords="248,216,435,256"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="160,168,273,209,271,214,158,173"/>
+<area shape="rect" id="Node000003" href="$classTechListController.html#a4a07a8d1f3948b7f326d8c0e0bc9ab06" title="Updates the technician list based on current combo box selections." alt="" coords="498,37,654,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,55,484,55,484,60,435,60"/>
+<area shape="rect" id="Node000004" href="$classTechListController.html#a63c60cd01624769a28bcf64986688b70" title="Rebuilds the technician list in the UI." alt="" coords="717,37,856,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="654,55,704,55,704,60,654,60"/>
+<area shape="rect" id="Node000005" href="$classTechnicianRepository.html#abf3ba8f356e622790a4445b34046ac02" title="Retrieves all technicians in the repository." alt="" coords="904,5,1064,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="856,44,890,38,891,43,857,49"/>
+<area shape="rect" id="Node000006" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="904,69,1064,109"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="857,66,891,72,890,77,856,71"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="435,123,469,125,469,131,435,129"/>
+<area shape="rect" id="Node000010" href="$classCreateInterventionDialog.html#abef24d6cd0ad7de22c7c96d2594f35d4" title="Tints a given icon with a specific color." alt="" coords="483,203,669,243"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="435,228,469,226,469,231,435,233"/>
+<area shape="rect" id="Node000011" href="$ExpertiseField_8h.html#a56a9a6b462a1d330a25154be696d66d5" title="Converts an ExpertiseField enum value to a human&#45;readable string." alt="" coords="537,267,615,293"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="435,251,523,268,522,273,434,256"/>
+</map>

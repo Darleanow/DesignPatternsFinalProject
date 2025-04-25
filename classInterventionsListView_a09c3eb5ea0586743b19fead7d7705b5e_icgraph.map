@@ -1,0 +1,7 @@
+<map id="InterventionsListView::on_repository_updated" name="InterventionsListView::on_repository_updated">
+<area shape="rect" id="Node000001" title="Slot called when the intervention repository is updated." alt="" coords="435,5,613,45"/>
+<area shape="rect" id="Node000002" href="$classInterventionsListView.html#a1ff1310c5ed4a038e39dd6e71dfc1915" title="Initializes the list view UI components." alt="" coords="224,5,387,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="421,28,387,28,387,23,421,23"/>
+<area shape="rect" id="Node000003" href="$classInterventionsListView.html#a1e18e26a39a91aaa4ba252033b3d5d57" title="Constructs the list view and initializes its UI." alt="" coords="5,5,176,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="210,28,176,28,176,23,210,23"/>
+</map>

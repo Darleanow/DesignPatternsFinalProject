@@ -1,0 +1,5 @@
+<map id="InterventionCreatorFacade::create_intervention" name="InterventionCreatorFacade::create_intervention">
+<area shape="rect" id="Node000001" title="Creates a new intervention instance using the provided data." alt="" coords="5,5,200,45"/>
+<area shape="rect" id="Node000002" href="$classInterventionFactory.html#ae89683787ee459ef412c3d7483e19f98" title="Creates a new intervention based on the provided data." alt="" coords="248,5,396,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,23,234,23,234,28,200,28"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="TechMapp::TechMapp" name="TechMapp::TechMapp">
+<area shape="rect" id="Node000001" title="Constructs the main application window." alt="" coords="5,284,165,309"/>
+<area shape="rect" id="Node000002" href="$classTechMapp.html#a5b70ee0b2d7cbe0e8fe1df38781cd936" title="Loads and applies the global stylesheet to the application." alt="" coords="213,127,412,152"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,282,139,224,173,191,212,162,228,155,230,159,215,167,176,195,143,228,97,286"/>
+<area shape="rect" id="Node000003" href="$classTechMapp.html#af0e39c1d95a040c849f8f920b4ba4ffe" title="Connects internal signals and slots for UI and authentication handling." alt="" coords="215,176,411,201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,281,271,205,273,210,114,286"/>
+<area shape="rect" id="Node000007" href="$classTechMapp.html#ada82d1ac29bbec7da9675ae29b7b23f0" title="Updates the UI components based on the user&#39;s role." alt="" coords="717,169,876,209"/>
+<area shape="poly" id="edge14_Node000001_Node000007" title=" " alt="" coords="166,304,269,311,396,311,464,307,533,299,602,287,668,269,718,245,760,216,763,220,721,250,670,274,603,292,534,304,464,312,396,316,268,316,166,309"/>
+<area shape="rect" id="Node000012" href="$classTechMapp.html#a5c6984398f24a46b540d5996ef613dc9" title="Configures and applies the application font." alt="" coords="231,335,395,360"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="144,307,242,329,241,334,143,312"/>
+<area shape="rect" id="Node000013" href="$classTechMapp.html#ab837369b7ebae709ff71ddd419c4c070" title="Sets up the main UI layout and widgets." alt="" coords="237,384,388,409"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="106,307,153,339,214,370,235,378,233,383,212,375,151,343,103,312"/>
+<area shape="rect" id="Node000004" href="$classLoginPage.html#a1c6c8b9e73bdbfa1db03802092643731" title="Emitted when a user has successfully logged in." alt="" coords="463,5,666,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="393,174,410,163,423,148,429,134,433,103,437,71,445,55,458,40,464,36,467,40,462,44,449,58,443,73,439,104,434,135,427,151,414,167,396,178"/>
+<area shape="rect" id="Node000005" href="$classLoginPage.html#a01f112292372e79480e00057fd689e2f" title="Emitted when the user requests to log out." alt="" coords="460,55,669,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="390,173,410,163,426,146,434,128,441,109,458,91,471,83,473,88,462,95,446,112,438,130,431,149,414,167,392,178"/>
+<area shape="rect" id="Node000006" href="$classTechMapp.html#a7a7ddf55a46e58e917e7f308161a773e" title="Called when a login is successful." alt="" coords="489,105,640,145"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="366,173,411,162,475,146,476,151,413,167,368,178"/>
+<area shape="rect" id="Node000010" href="$classTechMapp.html#a7ff2ad6699f59bc55499b83dac1a07da" title="Called when a logout is requested by the user." alt="" coords="485,169,644,209"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="411,186,472,186,472,191,411,191"/>
+<area shape="rect" id="Node000011" href="$classNavigationBar.html#acd76499274ec17a39d7811b458a152bc" title="Emitted when a new tab is selected." alt="" coords="464,233,665,259"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="370,199,496,228,495,233,369,204"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="639,142,711,162,710,168,637,147"/>
+<area shape="rect" id="Node000008" href="$classAuthenticationService.html#a8c681492f74d5e7b0338ec3a5525c0a5" title=" " alt="" coords="924,137,1089,177"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="876,174,910,169,911,174,877,179"/>
+<area shape="rect" id="Node000009" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="924,201,1089,241"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="877,198,911,203,910,209,876,203"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="644,186,704,186,704,191,644,191"/>
+</map>

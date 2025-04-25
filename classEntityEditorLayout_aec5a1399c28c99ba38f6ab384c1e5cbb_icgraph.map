@@ -1,0 +1,11 @@
+<map id="EntityEditorLayout::action_button" name="EntityEditorLayout::action_button">
+<area shape="rect" id="Node000001" title="Returns a pointer to the action button." alt="" coords="547,23,689,63"/>
+<area shape="rect" id="Node000002" href="$classInterventionPage.html#acdf427139a7423856cecd950d8da8198" title="Initializes and arranges all UI elements." alt="" coords="304,5,499,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="533,36,499,32,499,27,533,31"/>
+<area shape="rect" id="Node000004" href="$classTechniciansPage.html#ae411af32b5edf92ca920cb5ffbe949e6" title="Sets up the layout and UI widgets." alt="" coords="306,55,497,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="533,55,497,59,497,54,533,50"/>
+<area shape="rect" id="Node000003" href="$classInterventionPage.html#a1abb99ba568e63ec484d032e15498872" title="Constructs the InterventionPage widget." alt="" coords="5,5,256,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="290,21,256,21,256,15,290,15"/>
+<area shape="rect" id="Node000005" href="$classTechniciansPage.html#a63e7ceda5d2d5ec4a8a1304bfce57a1f" title="Constructs the TechniciansPage." alt="" coords="9,55,252,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="292,70,252,70,252,65,292,65"/>
+</map>

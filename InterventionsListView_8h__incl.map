@@ -1,0 +1,5 @@
+<map id="include/TechMa/Views/Widgets/InterventionsListView.h" name="include/TechMa/Views/Widgets/InterventionsListView.h">
+<area shape="rect" id="Node000001" title="Declares the InterventionsListView class, a QListView for displaying and selecting interventions." alt="" coords="5,5,240,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="79,93,166,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,46,125,79,120,79,120,46"/>
+</map>

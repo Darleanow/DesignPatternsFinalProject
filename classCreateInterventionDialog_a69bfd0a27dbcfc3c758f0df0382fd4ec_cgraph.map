@@ -1,0 +1,5 @@
+<map id="CreateInterventionDialog::setup_connects" name="CreateInterventionDialog::setup_connects">
+<area shape="rect" id="Node000001" title="Connects UI components to their corresponding signals and slots." alt="" coords="5,5,192,45"/>
+<area shape="rect" id="Node000002" href="$classCreateInterventionDialog.html#ae13390e7cc72067554a26c96787166b1" title="Enables or disables the OK button based on form validity." alt="" coords="240,5,427,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,23,226,23,226,28,192,28"/>
+</map>

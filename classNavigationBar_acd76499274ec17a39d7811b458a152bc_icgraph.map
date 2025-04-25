@@ -1,0 +1,11 @@
+<map id="NavigationBar::tabChanged" name="NavigationBar::tabChanged">
+<area shape="rect" id="Node000001" title="Emitted when a new tab is selected." alt="" coords="513,35,715,60"/>
+<area shape="rect" id="Node000002" href="$classTechMapp.html#af0e39c1d95a040c849f8f920b4ba4ffe" title="Connects internal signals and slots for UI and authentication handling." alt="" coords="269,5,465,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="499,36,465,32,466,27,500,31"/>
+<area shape="rect" id="Node000004" href="$classNavigationBar.html#a32cc6158f37c7675670a84b937d18b88" title="Connects signals and slots for tab interaction." alt="" coords="288,55,447,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="500,63,447,69,447,64,499,58"/>
+<area shape="rect" id="Node000003" href="$classTechMapp.html#ac4d485efbe0d00914dcfb9680a39ec77" title="Constructs the main application window." alt="" coords="33,5,193,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="256,21,194,21,194,15,256,15"/>
+<area shape="rect" id="Node000005" href="$classNavigationBar.html#a3643a95123630d6cb770426b529d2e2b" title="Constructs the NavigationBar and sets up UI elements." alt="" coords="5,63,221,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="274,78,221,78,221,73,274,73"/>
+</map>

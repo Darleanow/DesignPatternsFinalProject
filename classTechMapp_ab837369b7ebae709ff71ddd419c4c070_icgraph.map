@@ -1,0 +1,5 @@
+<map id="TechMapp::setup_ui" name="TechMapp::setup_ui">
+<area shape="rect" id="Node000001" title="Sets up the main UI layout and widgets." alt="" coords="213,5,364,31"/>
+<area shape="rect" id="Node000002" href="$classTechMapp.html#ac4d485efbe0d00914dcfb9680a39ec77" title="Constructs the main application window." alt="" coords="5,5,165,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,21,166,21,166,15,200,15"/>
+</map>

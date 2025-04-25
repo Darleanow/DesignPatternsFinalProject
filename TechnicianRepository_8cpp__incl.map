@@ -1,0 +1,24 @@
+<map id="src/Repository/TechnicianRepository.cpp" name="src/Repository/TechnicianRepository.cpp">
+<area shape="rect" id="Node000001" title="Implements the TechnicianRepository class responsible for managing technician records and notifying o..." alt="" coords="213,5,399,45"/>
+<area shape="rect" id="Node000002" href="$TechnicianRepository_8h.html" title="Declares the TechnicianRepository class, responsible for storing and managing technicians." alt="" coords="389,93,607,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="349,43,445,85,442,90,347,48"/>
+<area shape="rect" id="Node000007" href="$ATechnicianObserver_8h.html" title="Declares the ATechnicianObserver interface used for observing technician&#45;related changes." alt="" coords="5,181,220,221"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="287,48,146,174,142,170,283,44"/>
+<area shape="rect" id="Node000003" href="$ATechnician_8h.html" title="Defines the abstract base class ATechnician representing a technician entity." alt="" coords="245,189,461,214"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,136,385,184,382,179,465,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="477,269,540,295"/>
+<area shape="poly" id="edge11_Node000002_Node000005" title=" " alt="" coords="502,134,510,256,504,256,497,134"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="414,136,211,181,210,176,413,131"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="535,189,613,214"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="517,132,557,176,553,180,513,135"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="637,189,711,214"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="538,131,640,180,637,185,535,136"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="736,189,860,214"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="565,131,746,182,744,188,563,136"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="239,343,298,368"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="303,217,258,237,239,252,223,271,219,286,223,302,246,332,241,335,218,304,214,286,218,268,235,248,256,232,301,212"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="377,212,475,261,473,266,374,216"/>
+<area shape="rect" id="Node000006" href="$ExpertiseField_8h.html" title="Declares the ExpertiseField enum class representing technician specializations, and a utility functio..." alt="" coords="233,269,453,295"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="354,214,349,256,344,255,349,214"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="333,297,293,335,289,331,330,293"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NavigationBar::setup_connects" name="NavigationBar::setup_connects">
+<area shape="rect" id="Node000001" title="Connects signals and slots for tab interaction." alt="" coords="5,5,164,45"/>
+<area shape="rect" id="Node000002" href="$classNavigationBar.html#acd76499274ec17a39d7811b458a152bc" title="Emitted when a new tab is selected." alt="" coords="212,13,413,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,23,198,23,198,28,164,28"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="CreateInterventionDialog::setup_ui" name="CreateInterventionDialog::setup_ui">
+<area shape="rect" id="Node000001" title="Initializes and arranges all UI components." alt="" coords="5,35,192,75"/>
+<area shape="rect" id="Node000002" href="$classCreateInterventionDialog.html#abef24d6cd0ad7de22c7c96d2594f35d4" title="Tints a given icon with a specific color." alt="" coords="240,5,427,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,40,226,36,227,41,192,46"/>
+<area shape="rect" id="Node000003" href="$ExpertiseField_8h.html#a56a9a6b462a1d330a25154be696d66d5" title="Converts an ExpertiseField enum value to a human&#45;readable string." alt="" coords="294,70,373,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,63,281,74,280,79,192,68"/>
+</map>

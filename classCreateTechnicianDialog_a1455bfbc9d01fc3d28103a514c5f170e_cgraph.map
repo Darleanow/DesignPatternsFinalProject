@@ -1,0 +1,9 @@
+<map id="CreateTechnicianDialog::CreateTechnicianDialog" name="CreateTechnicianDialog::CreateTechnicianDialog">
+<area shape="rect" id="Node000001" title="Constructs the dialog and initializes the UI." alt="" coords="5,37,188,77"/>
+<area shape="rect" id="Node000002" href="$classCreateTechnicianDialog.html#a8811b13c2b0fcbefff3c5aff6580859a" title="Connects UI events to their respective handlers." alt="" coords="236,5,411,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,42,222,37,223,42,189,47"/>
+<area shape="rect" id="Node000003" href="$classCreateTechnicianDialog.html#ae7960dc0958f8442fb97915b1c2ce118" title="Builds and arranges the dialog&#39;s UI components." alt="" coords="236,69,411,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,68,223,73,222,78,188,73"/>
+<area shape="rect" id="Node000004" href="$ExpertiseField_8h.html#a56a9a6b462a1d330a25154be696d66d5" title="Converts an ExpertiseField enum value to a human&#45;readable string." alt="" coords="459,77,537,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="411,87,445,87,445,92,411,92"/>
+</map>

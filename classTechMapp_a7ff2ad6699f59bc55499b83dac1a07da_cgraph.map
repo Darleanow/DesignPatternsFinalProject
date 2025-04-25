@@ -1,0 +1,9 @@
+<map id="TechMapp::on_logout_requested" name="TechMapp::on_logout_requested">
+<area shape="rect" id="Node000001" title="Called when a logout is requested by the user." alt="" coords="5,37,164,77"/>
+<area shape="rect" id="Node000002" href="$classTechMapp.html#ada82d1ac29bbec7da9675ae29b7b23f0" title="Updates the UI components based on the user&#39;s role." alt="" coords="212,37,371,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,55,198,55,198,60,164,60"/>
+<area shape="rect" id="Node000003" href="$classAuthenticationService.html#a8c681492f74d5e7b0338ec3a5525c0a5" title=" " alt="" coords="419,5,584,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,43,405,37,406,43,371,48"/>
+<area shape="rect" id="Node000004" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="419,69,584,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="371,67,406,72,405,77,371,72"/>
+</map>

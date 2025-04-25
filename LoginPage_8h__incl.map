@@ -1,0 +1,23 @@
+<map id="include/TechMa/Views/Pages/LoginPage.h" name="include/TechMa/Views/Pages/LoginPage.h">
+<area shape="rect" id="Node000001" title="Declares the LoginPage class, the user interface component for login and authentication." alt="" coords="409,5,575,45"/>
+<area shape="rect" id="Node000002" href="$UserAuthentication_8h.html" title="Declaration of the User and AuthenticationService classes for managing authentication." alt="" coords="104,93,275,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="426,48,270,92,268,87,425,43"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="299,101,365,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="458,48,366,97,364,92,456,43"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="390,101,474,126"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="481,47,450,90,446,87,477,44"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="499,101,605,126"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="507,44,538,87,534,90,503,47"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="629,101,733,126"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="535,43,645,93,643,98,532,48"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="758,101,837,126"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="571,43,746,91,755,94,753,99,745,96,569,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,83,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="156,136,79,177,76,172,153,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,181,181,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="181,135,160,171,155,168,176,132"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="205,181,264,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="203,132,223,168,219,171,198,135"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="289,181,413,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="229,131,316,173,313,178,227,136"/>
+</map>

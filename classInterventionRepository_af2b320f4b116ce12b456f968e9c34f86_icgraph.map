@@ -1,0 +1,5 @@
+<map id="InterventionRepository::next_id" name="InterventionRepository::next_id">
+<area shape="rect" id="Node000001" title="Gets the next available unique intervention ID." alt="" coords="261,5,432,45"/>
+<area shape="rect" id="Node000002" href="$classInterventionRepositoryProxy.html#a9abf79cfa8d94b22f4a518cf121faf2a" title="Returns the next available ID for a new intervention." alt="" coords="5,5,213,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,28,213,28,213,23,248,23"/>
+</map>

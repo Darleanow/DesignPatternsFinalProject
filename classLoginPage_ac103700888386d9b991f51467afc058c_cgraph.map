@@ -1,0 +1,11 @@
+<map id="LoginPage::showEvent" name="LoginPage::showEvent">
+<area shape="rect" id="Node000001" title="Called when the widget is shown, used to reset or update UI state." alt="" coords="5,109,172,134"/>
+<area shape="rect" id="Node000002" href="$classAuthenticationService.html#a8c681492f74d5e7b0338ec3a5525c0a5" title=" " alt="" coords="220,5,385,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,106,219,55,235,48,237,53,221,60,116,111"/>
+<area shape="rect" id="Node000003" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="220,69,385,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,106,206,101,207,106,173,112"/>
+<area shape="rect" id="Node000004" href="$classLoginPage.html#ab85c215a7ad69e03fa4b3d07b6687c2e" title="Updates the UI to reflect the state of a logged&#45;in user." alt="" coords="223,133,383,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,131,209,137,208,142,172,136"/>
+<area shape="rect" id="Node000005" href="$classLoginPage.html#a64039d7b1a1fde6e38e7682bb17e94a0" title="Resets the UI to the logged&#45;out state." alt="" coords="223,197,383,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="116,132,221,183,237,190,235,195,219,188,113,137"/>
+</map>

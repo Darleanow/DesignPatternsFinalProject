@@ -1,0 +1,11 @@
+<map id="ConcreteIntervention" name="ConcreteIntervention">
+<area shape="rect" id="Node000001" title="Concrete implementation of the AIntervention interface." alt="" coords="28,269,187,295"/>
+<area shape="rect" id="Node000002" href="$classAIntervention.html" title="Abstract base class representing a generic intervention." alt="" coords="5,181,116,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,217,103,268,99,270,71,220"/>
+<area shape="rect" id="Node000003" href="$structInterventionData.html" title="Data structure containing all relevant details of an intervention." alt="" coords="140,181,272,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,218,123,271,119,267,181,214"/>
+<area shape="rect" id="Node000004" href="$structLocation.html" title="Represents a physical location with an address and GPS coordinates." alt="" coords="167,93,245,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="209,133,209,181,203,181,203,133"/>
+<area shape="rect" id="Node000005" href="$structGPSCoords.html" title="Represents geographical coordinates with latitude and longitude." alt="" coords="159,5,253,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="209,45,209,93,203,93,203,45"/>
+</map>

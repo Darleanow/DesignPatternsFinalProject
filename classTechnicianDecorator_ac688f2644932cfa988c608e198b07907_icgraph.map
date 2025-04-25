@@ -1,0 +1,5 @@
+<map id="TechnicianDecorator::get_expertise" name="TechnicianDecorator::get_expertise">
+<area shape="rect" id="Node000001" title="Retrieves the expertise fields of the wrapped technician." alt="" coords="200,5,355,45"/>
+<area shape="rect" id="Node000002" href="$classExpertiseDecorator.html#a3c0c169c4f7b4fb43d0fbf81d3e04861" title="Retrieves all expertise fields of the technician, including the added one." alt="" coords="5,5,152,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,28,153,28,153,23,186,23"/>
+</map>

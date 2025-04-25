@@ -1,0 +1,11 @@
+<map id="CreateInterventionDialog" name="CreateInterventionDialog">
+<area shape="rect" id="Node000001" title="A modal dialog that allows users to input data for a new intervention." alt="" coords="5,168,192,193"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="19,80,93,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,117,95,166,90,169,65,119"/>
+<area shape="rect" id="Node000003" href="$classTechListController.html" title="Controls UI elements related to technician selection and observes technician repository updates." alt="" coords="117,80,256,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,117,113,169,109,166,163,113"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="79,5,153,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="139,39,177,78,173,82,135,43"/>
+<area shape="rect" id="Node000005" href="$classATechnicianObserver.html" title="Interface for classes that need to observe changes in the technician repository." alt="" coords="177,5,335,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="237,43,200,82,196,78,233,39"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="TechListController::on_repository_updated" name="TechListController::on_repository_updated">
+<area shape="rect" id="Node000001" title="Reacts to updates in the technician repository." alt="" coords="5,37,184,77"/>
+<area shape="rect" id="Node000002" href="$classTechListController.html#a4a07a8d1f3948b7f326d8c0e0bc9ab06" title="Updates the technician list based on current combo box selections." alt="" coords="232,37,388,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,55,218,55,218,60,184,60"/>
+<area shape="rect" id="Node000003" href="$classTechListController.html#a63c60cd01624769a28bcf64986688b70" title="Rebuilds the technician list in the UI." alt="" coords="436,37,575,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,55,422,55,422,60,388,60"/>
+<area shape="rect" id="Node000004" href="$classTechnicianRepository.html#abf3ba8f356e622790a4445b34046ac02" title="Retrieves all technicians in the repository." alt="" coords="623,5,783,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="574,44,609,38,610,43,575,49"/>
+<area shape="rect" id="Node000005" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="623,69,783,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="575,66,610,72,609,77,574,71"/>
+</map>

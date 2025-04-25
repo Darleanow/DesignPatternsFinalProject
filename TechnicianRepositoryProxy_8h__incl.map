@@ -1,0 +1,37 @@
+<map id="include/TechMa/Repository/TechnicianRepositoryProxy.h" name="include/TechMa/Repository/TechnicianRepositoryProxy.h">
+<area shape="rect" id="Node000001" title="Declares the TechnicianRepositoryProxy class and the AccessDeniedException." alt="" coords="518,5,728,45"/>
+<area shape="rect" id="Node000002" href="$UserAuthentication_8h.html" title="Declaration of the User and AuthenticationService classes for managing authentication." alt="" coords="102,93,272,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="528,48,286,95,285,90,527,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="274,189,351,214"/>
+<area shape="poly" id="edge19_Node000001_Node000003" title=" " alt="" coords="518,33,476,41,433,53,393,71,357,95,342,113,331,134,318,176,313,174,326,132,337,110,353,91,390,66,432,48,475,35,517,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="26,189,100,214"/>
+<area shape="poly" id="edge20_Node000001_Node000004" title=" " alt="" coords="517,29,401,32,275,43,216,51,164,63,121,77,91,95,78,113,70,133,64,175,59,175,65,132,73,110,88,91,119,72,162,58,215,46,275,37,401,27,517,24"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="379,343,438,368"/>
+<area shape="poly" id="edge22_Node000001_Node000005" title=" " alt="" coords="697,43,778,71,819,89,856,110,886,134,904,161,909,175,909,191,905,207,896,223,866,250,819,273,761,293,695,310,560,337,452,352,451,346,559,331,694,305,759,288,817,268,863,245,892,220,900,205,904,190,903,176,900,163,882,138,853,114,817,94,776,76,695,48"/>
+<area shape="rect" id="Node000007" href="$ATechnician_8h.html" title="Defines the abstract base class ATechnician representing a technician entity." alt="" coords="375,189,591,214"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="625,46,619,89,611,113,598,135,567,165,530,186,527,181,563,161,594,132,606,111,614,88,620,45"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="617,269,680,295"/>
+<area shape="poly" id="edge23_Node000001_Node000008" title=" " alt="" coords="696,43,748,63,804,92,856,130,878,154,896,180,902,194,904,208,895,230,873,247,842,260,766,276,694,282,693,277,765,271,840,255,870,243,891,227,899,207,897,196,891,183,874,157,852,134,801,96,746,68,694,48"/>
+<area shape="rect" id="Node000010" href="$ATechnicianObserver_8h.html" title="Declares the ATechnicianObserver interface used for observing technician&#45;related changes." alt="" coords="666,181,881,221"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="641,44,750,169,746,173,637,47"/>
+<area shape="rect" id="Node000011" href="$TechnicianRepository_8h.html" title="Declares the TechnicianRepository class, responsible for storing and managing technicians." alt="" coords="368,93,585,133"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="592,48,522,89,519,84,589,43"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1008,101,1094,126"/>
+<area shape="poly" id="edge21_Node000001_Node000012" title=" " alt="" coords="729,40,854,62,989,91,1003,94,1002,100,988,96,853,67,728,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,131,286,179,283,183,213,136"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="161,136,92,183,89,179,158,131"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="103,136,61,151,27,170,15,181,9,193,9,206,16,220,51,258,93,288,140,311,190,328,239,339,287,346,366,352,365,357,286,352,238,344,188,333,138,316,90,292,47,262,11,223,4,207,4,192,11,178,23,166,59,146,102,131"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="125,189,249,214"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="190,134,190,175,184,175,184,134"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="440,217,397,237,378,252,363,271,359,286,363,302,386,332,381,335,358,304,353,286,358,268,374,248,394,233,437,212"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="508,212,613,261,611,266,506,216"/>
+<area shape="rect" id="Node000009" href="$ExpertiseField_8h.html" title="Declares the ExpertiseField enum class representing technician specializations, and a utility functio..." alt="" coords="373,269,593,295"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="486,214,486,255,480,255,480,214"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="473,297,432,335,429,331,469,293"/>
+<area shape="poly" id="edge15_Node000011_Node000003" title=" " alt="" coords="442,136,348,185,345,180,439,131"/>
+<area shape="poly" id="edge16_Node000011_Node000004" title=" " alt="" coords="368,132,245,153,113,184,104,187,102,182,112,179,244,148,367,127"/>
+<area shape="poly" id="edge17_Node000011_Node000006" title=" " alt="" coords="414,136,239,187,238,182,412,131"/>
+<area shape="poly" id="edge13_Node000011_Node000007" title=" " alt="" coords="480,133,484,175,478,175,475,134"/>
+<area shape="poly" id="edge18_Node000011_Node000008" title=" " alt="" coords="531,131,570,151,605,180,630,217,644,255,639,256,625,219,601,183,567,156,529,136"/>
+<area shape="poly" id="edge14_Node000011_Node000010" title=" " alt="" coords="542,131,696,175,695,180,541,136"/>
+</map>

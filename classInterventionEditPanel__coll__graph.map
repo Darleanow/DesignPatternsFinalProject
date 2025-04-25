@@ -1,0 +1,11 @@
+<map id="InterventionEditPanel" name="InterventionEditPanel">
+<area shape="rect" id="Node000001" title="A QWidget&#45;based panel for editing an existing intervention." alt="" coords="5,168,167,193"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,80,104,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,118,86,167,80,168,68,119"/>
+<area shape="rect" id="Node000003" href="$classTechListController.html" title="Controls UI elements related to technician selection and observes technician repository updates." alt="" coords="129,80,267,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,116,103,170,100,166,170,112"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="91,5,166,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="151,39,189,78,185,82,148,43"/>
+<area shape="rect" id="Node000005" href="$classATechnicianObserver.html" title="Interface for classes that need to observe changes in the technician repository." alt="" coords="190,5,347,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="249,43,211,82,208,78,245,39"/>
+</map>

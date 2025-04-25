@@ -1,0 +1,20 @@
+<map id="TechMapp::setup_connects" name="TechMapp::setup_connects">
+<area shape="rect" id="Node000001" title="Connects internal signals and slots for UI and authentication handling." alt="" coords="5,112,201,137"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#a1c6c8b9e73bdbfa1db03802092643731" title="Emitted when a user has successfully logged in." alt="" coords="253,5,455,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,110,177,75,248,40,271,32,273,37,250,44,179,80,124,114"/>
+<area shape="rect" id="Node000003" href="$classLoginPage.html#a01f112292372e79480e00057fd689e2f" title="Emitted when the user requests to log out." alt="" coords="249,55,459,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,109,284,81,285,86,160,115"/>
+<area shape="rect" id="Node000004" href="$classTechMapp.html#a7a7ddf55a46e58e917e7f308161a773e" title="Called when a login is successful." alt="" coords="279,105,429,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,122,265,122,265,127,202,127"/>
+<area shape="rect" id="Node000008" href="$classTechMapp.html#a7ff2ad6699f59bc55499b83dac1a07da" title="Called when a logout is requested by the user." alt="" coords="275,169,433,209"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="155,135,262,163,261,168,154,140"/>
+<area shape="rect" id="Node000009" href="$classNavigationBar.html#acd76499274ec17a39d7811b458a152bc" title="Emitted when a new tab is selected." alt="" coords="253,233,455,259"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="122,135,177,176,212,199,250,218,274,227,272,232,248,223,210,203,174,181,119,140"/>
+<area shape="rect" id="Node000005" href="$classTechMapp.html#ada82d1ac29bbec7da9675ae29b7b23f0" title="Updates the UI components based on the user&#39;s role." alt="" coords="507,137,665,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="430,132,493,141,493,147,429,138"/>
+<area shape="rect" id="Node000006" href="$classAuthenticationService.html#a8c681492f74d5e7b0338ec3a5525c0a5" title=" " alt="" coords="713,105,879,145"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="665,142,699,137,700,142,666,147"/>
+<area shape="rect" id="Node000007" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="713,169,879,209"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="666,166,700,171,699,177,665,171"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="433,175,493,167,493,172,434,180"/>
+</map>

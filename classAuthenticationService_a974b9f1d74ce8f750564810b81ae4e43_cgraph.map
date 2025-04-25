@@ -1,0 +1,7 @@
+<map id="AuthenticationService::AuthenticationService" name="AuthenticationService::AuthenticationService">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,27,179,67"/>
+<area shape="rect" id="Node000002" href="$UserAuthentication_8cpp.html#a55c1b35e9ad9f9520bbd0da24a54c23d" title="Hashes a plain&#45;text password (stub implementation)." alt="" coords="248,5,371,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,33,234,25,235,31,179,38"/>
+<area shape="rect" id="Node000003" href="$classAuthenticationService.html#a9a2e6de8a5408834bb5b6f700e7d6f90" title=" " alt="" coords="227,55,392,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,56,213,60,213,66,178,61"/>
+</map>

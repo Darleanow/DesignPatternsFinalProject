@@ -1,0 +1,5 @@
+<map id="TechniciansPage::setup_connects" name="TechniciansPage::setup_connects">
+<area shape="rect" id="Node000001" title="Connects UI signals and slots for interaction logic." alt="" coords="296,5,468,45"/>
+<area shape="rect" id="Node000002" href="$classTechniciansPage.html#a63e7ceda5d2d5ec4a8a1304bfce57a1f" title="Constructs the TechniciansPage." alt="" coords="5,13,248,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,28,248,28,248,23,282,23"/>
+</map>

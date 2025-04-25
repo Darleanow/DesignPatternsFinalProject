@@ -1,0 +1,9 @@
+<map id="InterventionsListView::setup_connects" name="InterventionsListView::setup_connects">
+<area shape="rect" id="Node000001" title="Connects internal signals and slots for user interaction." alt="" coords="5,69,168,109"/>
+<area shape="rect" id="Node000002" href="$classInterventionRepository.html#a251502ad34f1e6636918d97e398b3d4b" title="Retrieves all interventions stored in the repository." alt="" coords="216,5,387,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,67,220,47,221,52,155,72"/>
+<area shape="rect" id="Node000003" href="$classInterventionRepository.html#a2e562f9d059314c9cb2fb8cc0d19008b" title="Returns the singleton instance of the repository." alt="" coords="216,69,387,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,87,202,87,202,92,168,92"/>
+<area shape="rect" id="Node000004" href="$classInterventionsListView.html#a1f1c4ca1c4c8be522cb37b1d3c388f7d" title="Emitted when a user selects an intervention from the list." alt="" coords="216,133,387,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,107,221,127,220,132,154,112"/>
+</map>

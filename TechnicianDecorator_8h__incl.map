@@ -1,0 +1,15 @@
+<map id="include/TechMa/Technician/TechnicianDecorator.h" name="include/TechMa/Technician/TechnicianDecorator.h">
+<area shape="rect" id="Node000001" title="Declares the TechnicianDecorator abstract class used to extend technician functionality." alt="" coords="167,5,361,45"/>
+<area shape="rect" id="Node000002" href="$ATechnician_8h.html" title="Defines the abstract base class ATechnician representing a technician entity." alt="" coords="5,93,221,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,48,149,89,147,84,227,43"/>
+<area shape="rect" id="Node000005" href="$ExpertiseField_8h.html" title="Declares the ExpertiseField enum class representing technician specializations, and a utility functio..." alt="" coords="159,167,379,192"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="267,46,271,153,266,153,262,46"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="301,93,379,119"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="284,44,321,81,317,85,280,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="123,240,181,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,121,82,135,68,153,59,172,62,191,84,216,112,233,109,238,80,220,58,193,54,171,63,150,79,131,95,117"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="73,167,135,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="114,119,110,154,105,153,109,119"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="139,116,232,158,230,163,137,121"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="252,194,184,235,182,230,249,190"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="TechnicianRepository::unsubscribe" name="TechnicianRepository::unsubscribe">
+<area shape="rect" id="Node000001" title="Unsubscribes an observer from notifications." alt="" coords="251,69,411,109"/>
+<area shape="rect" id="Node000002" href="$classTechnicianRepositoryProxy.html#a67b748c4942d8868f471c06a249933fd" title="Unsubscribes an observer from updates." alt="" coords="5,5,203,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,68,175,48,176,43,246,63"/>
+<area shape="rect" id="Node000003" href="$classTechListController.html#a7bef283735b757d557d2125f4e9bb106" title="Destructor (override)." alt="" coords="25,69,183,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,92,183,92,183,87,237,87"/>
+<area shape="rect" id="Node000004" href="$classTechniciansListView.html#a63e3fd6929aee69b5483b757d3b1474f" title="Destructor." alt="" coords="19,133,189,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,116,176,136,175,131,245,111"/>
+</map>

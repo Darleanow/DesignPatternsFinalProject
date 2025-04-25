@@ -1,0 +1,5 @@
+<map id="InterventionPage::setup_connects" name="InterventionPage::setup_connects">
+<area shape="rect" id="Node000001" title="Connects internal signals and slots." alt="" coords="304,5,480,45"/>
+<area shape="rect" id="Node000002" href="$classInterventionPage.html#a1abb99ba568e63ec484d032e15498872" title="Constructs the InterventionPage widget." alt="" coords="5,13,256,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,28,256,28,256,23,290,23"/>
+</map>

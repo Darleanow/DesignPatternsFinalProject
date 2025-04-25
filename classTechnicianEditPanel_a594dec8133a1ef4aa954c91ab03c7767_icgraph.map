@@ -1,0 +1,8 @@
+<map id="TechnicianEditPanel::name" name="TechnicianEditPanel::name">
+<area shape="rect" id="Node000001" title="Returns the current name in the input field." alt="" coords="403,5,553,45"/>
+<area shape="rect" id="Node000002" href="$classTechnicianEditPanel.html#a97a82e304a62d5c3b4c4798972d5c583" title="Loads a technician into the panel for editing." alt="" coords="5,5,156,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="389,25,355,24,204,24,156,25,156,20,204,19,355,19,389,19"/>
+<area shape="rect" id="Node000003" href="$classTechnicianEditPanel.html#a2d00646809593c3258840fc93dd110be" title="Sets the name in the input field." alt="" coords="204,33,355,73"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="390,40,355,45,354,40,389,35"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="190,43,156,39,157,33,191,38"/>
+</map>

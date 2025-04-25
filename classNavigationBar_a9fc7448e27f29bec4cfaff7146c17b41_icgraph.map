@@ -1,0 +1,5 @@
+<map id="NavigationBar::setup_ui" name="NavigationBar::setup_ui">
+<area shape="rect" id="Node000001" title="Initializes the tab bar UI and appearance." alt="" coords="269,5,448,31"/>
+<area shape="rect" id="Node000002" href="$classNavigationBar.html#a3643a95123630d6cb770426b529d2e2b" title="Constructs the NavigationBar and sets up UI elements." alt="" coords="5,5,221,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,21,221,21,221,15,255,15"/>
+</map>

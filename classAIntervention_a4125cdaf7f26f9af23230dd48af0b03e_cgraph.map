@@ -1,0 +1,5 @@
+<map id="AIntervention::id" name="AIntervention::id">
+<area shape="rect" id="Node000001" title="Retrieves the intervention&#39;s ID." alt="" coords="5,5,136,31"/>
+<area shape="rect" id="Node000002" href="$classAIntervention.html#ab5e68543c92c6097e8ae3809e7379cb5" title="Retrieves the data associated with the intervention." alt="" coords="184,5,331,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,15,170,15,170,21,136,21"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="src/Views/Widgets/NavigationBar.cpp" name="src/Views/Widgets/NavigationBar.cpp">
+<area shape="rect" id="Node000001" title="Implements the NavigationBar class, a custom tab bar with icon rendering and navigation support." alt="" coords="177,5,393,45"/>
+<area shape="rect" id="Node000002" href="$NavigationBar_8h.html" title="Declares the NavigationBar class, a custom QTabBar with SVG icon rendering." alt="" coords="61,93,231,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,48,189,89,186,84,253,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="255,101,314,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="287,46,287,87,282,87,282,46"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="338,101,415,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="307,44,356,89,352,93,303,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,87,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,136,73,175,70,170,120,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,181,181,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="149,134,149,167,143,167,143,134"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="205,181,281,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="171,131,220,170,217,175,168,136"/>
+</map>

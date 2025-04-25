@@ -1,0 +1,21 @@
+<map id="InterventionPage::InterventionPage" name="InterventionPage::InterventionPage">
+<area shape="rect" id="Node000001" title="Constructs the InterventionPage widget." alt="" coords="5,109,256,134"/>
+<area shape="rect" id="Node000002" href="$classInterventionPage.html#a23dea62c55db2a9b9a27eb3b5f4b2349" title="Connects internal signals and slots." alt="" coords="313,44,489,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,106,299,83,301,88,192,111"/>
+<area shape="rect" id="Node000003" href="$classInterventionPage.html#acdf427139a7423856cecd950d8da8198" title="Initializes and arranges all UI elements." alt="" coords="304,109,499,134"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,119,290,119,290,124,256,124"/>
+<area shape="rect" id="Node000007" href="$classInterventionPage.html#a548ea550131dc31088b667d4d08b8f6e" title="Updates UI visibility and behavior based on the user&#39;s role." alt="" coords="309,229,494,269"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="160,132,346,221,344,226,158,136"/>
+<area shape="rect" id="Node000004" href="$classEntityEditorLayout.html#aec5a1399c28c99ba38f6ab384c1e5cbb" title="Returns a pointer to the action button." alt="" coords="558,5,701,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="465,106,497,94,521,75,545,55,557,49,560,53,548,60,525,79,500,98,467,111"/>
+<area shape="rect" id="Node000005" href="$classEntityEditorLayout.html#a05c07f7c50a056831200d32048918549" title="Sets the widget that will appear on the left side of the main content area." alt="" coords="558,69,701,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="492,106,544,99,545,104,493,111"/>
+<area shape="rect" id="Node000006" href="$classEntityEditorLayout.html#ac65c199970eb9919a60381bd7f1f9d49" title="Sets the widget that will appear on the right side of the main content area." alt="" coords="558,133,701,173"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="493,131,545,139,544,144,492,137"/>
+<area shape="rect" id="Node000008" href="$classAuthenticationService.html#ad982cbb3ee4ae8471146c296f47ad30d" title=" " alt="" coords="547,197,712,237"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="494,234,533,228,534,233,495,239"/>
+<area shape="rect" id="Node000009" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="547,261,712,301"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="495,260,534,265,533,271,494,265"/>
+<area shape="rect" id="Node000010" href="$classInterventionEditPanel.html#aae70b6d931060e223a1b531811eecf90" title="Provides access to the Save button." alt="" coords="549,325,710,365"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="448,267,548,311,564,318,562,323,546,316,445,272"/>
+</map>

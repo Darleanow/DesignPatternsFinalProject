@@ -1,0 +1,15 @@
+<map id="LoginPage::attempt_login" name="LoginPage::attempt_login">
+<area shape="rect" id="Node000001" title="Attempts to log in with the provided username and password." alt="" coords="5,142,153,182"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#abc9ba65e91d719c00b7fa31ac3577fa6" title="Clears the login input fields." alt="" coords="217,5,388,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,140,137,90,167,64,200,41,217,33,219,38,203,46,170,68,141,94,97,144"/>
+<area shape="rect" id="Node000003" href="$classAuthenticationService.html#a8c681492f74d5e7b0338ec3a5525c0a5" title=" " alt="" coords="220,55,385,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,139,200,105,221,97,223,102,202,110,123,144"/>
+<area shape="rect" id="Node000004" href="$UserAuthentication_8cpp.html#a55c1b35e9ad9f9520bbd0da24a54c23d" title="Hashes a plain&#45;text password (stub implementation)." alt="" coords="241,120,364,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="153,150,227,140,228,145,154,155"/>
+<area shape="rect" id="Node000005" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="220,170,385,210"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="154,169,207,175,206,181,153,174"/>
+<area shape="rect" id="Node000006" href="$classLoginPage.html#a1c6c8b9e73bdbfa1db03802092643731" title="Emitted when a user has successfully logged in." alt="" coords="201,235,404,260"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="117,180,202,220,230,229,229,234,200,224,115,185"/>
+<area shape="rect" id="Node000007" href="$classLoginPage.html#ab85c215a7ad69e03fa4b3d07b6687c2e" title="Updates the UI to reflect the state of a logged&#45;in user." alt="" coords="223,285,383,325"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="100,180,144,225,172,248,203,269,218,277,215,282,200,274,169,253,140,229,96,184"/>
+</map>

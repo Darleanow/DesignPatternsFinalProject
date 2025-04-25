@@ -1,0 +1,5 @@
+<map id="CreateInterventionDialog::setup_connects" name="CreateInterventionDialog::setup_connects">
+<area shape="rect" id="Node000001" title="Connects UI components to their corresponding signals and slots." alt="" coords="248,5,435,45"/>
+<area shape="rect" id="Node000002" href="$classCreateInterventionDialog.html#a90408e026b2b8ba7a0da0179623c3e37" title="Constructs the dialog." alt="" coords="5,5,200,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,28,200,28,200,23,234,23"/>
+</map>

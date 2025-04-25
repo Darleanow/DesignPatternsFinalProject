@@ -1,0 +1,18 @@
+<map id="InterventionsListView::setup_ui" name="InterventionsListView::setup_ui">
+<area shape="rect" id="Node000001" title="Initializes the list view UI components." alt="" coords="5,116,168,156"/>
+<area shape="rect" id="Node000002" href="$classInterventionRepository.html#a2e562f9d059314c9cb2fb8cc0d19008b" title="Returns the singleton instance of the repository." alt="" coords="443,5,613,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,113,433,46,434,51,168,119"/>
+<area shape="rect" id="Node000003" href="$classInterventionsListView.html#a09c3eb5ea0586743b19fead7d7705b5e" title="Slot called when the intervention repository is updated." alt="" coords="216,116,395,156"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,133,203,133,203,139,168,139"/>
+<area shape="rect" id="Node000008" href="$classInterventionRepository.html#afb56a1a72a8d710be1a16589da2bd0b7" title="Subscribes a QObject to be notified of changes." alt="" coords="220,180,391,220"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="157,154,224,174,223,179,155,159"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="337,113,385,84,441,55,456,48,459,53,444,60,388,89,340,118"/>
+<area shape="rect" id="Node000004" href="$classInterventionRepository.html#a251502ad34f1e6636918d97e398b3d4b" title="Retrieves all interventions stored in the repository." alt="" coords="443,69,613,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="394,115,429,107,430,113,395,120"/>
+<area shape="rect" id="Node000005" href="$classTechnicianRepository.html#abf3ba8f356e622790a4445b34046ac02" title="Retrieves all technicians in the repository." alt="" coords="448,133,608,173"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="395,140,434,143,434,149,395,146"/>
+<area shape="rect" id="Node000006" href="$classTechnicianRepository.html#a7195867c4915f8aa3ff92b28615b1248" title="Returns the singleton instance of the repository." alt="" coords="448,197,608,237"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="363,154,396,165,462,190,460,195,394,171,361,159"/>
+<area shape="rect" id="Node000007" href="$ExpertiseField_8h.html#a56a9a6b462a1d330a25154be696d66d5" title="Converts an ExpertiseField enum value to a human&#45;readable string." alt="" coords="489,262,567,287"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="378,154,396,166,413,187,421,208,428,228,444,247,477,263,474,268,441,251,423,231,416,210,409,190,393,170,375,158"/>
+</map>

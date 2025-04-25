@@ -1,0 +1,7 @@
+<map id="CreateInterventionDialog::clear_fields" name="CreateInterventionDialog::clear_fields">
+<area shape="rect" id="Node000001" title="Clears all input fields in the form." alt="" coords="248,37,435,77"/>
+<area shape="rect" id="Node000002" href="$classCreateInterventionDialog.html#a90408e026b2b8ba7a0da0179623c3e37" title="Constructs the dialog." alt="" coords="5,5,200,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,46,200,41,200,36,235,40"/>
+<area shape="rect" id="Node000003" href="$classCreateInterventionDialog.html#aa1cf75321fa161537f481c9eb80ba011" title="Handles the show event to prepare or reset the dialog." alt="" coords="9,69,196,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,74,197,79,196,74,234,69"/>
+</map>

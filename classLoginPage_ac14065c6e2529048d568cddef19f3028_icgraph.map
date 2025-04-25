@@ -1,0 +1,7 @@
+<map id="LoginPage::attempt_login" name="LoginPage::attempt_login">
+<area shape="rect" id="Node000001" title="Attempts to log in with the provided username and password." alt="" coords="461,5,609,45"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#a7cd454f7668442d809030c3e5e6a66ea" title="Connects UI elements to their respective slots." alt="" coords="216,13,413,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="447,28,413,28,413,23,447,23"/>
+<area shape="rect" id="Node000003" href="$classLoginPage.html#ac80d4431cd7779e6ae5f8c3b17fe6c3f" title="Constructs the login page UI." alt="" coords="5,13,168,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,28,168,28,168,23,202,23"/>
+</map>

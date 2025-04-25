@@ -1,0 +1,7 @@
+<map id="include/TechMa/Views/Pages/LoginPage.h" name="include/TechMa/Views/Pages/LoginPage.h">
+<area shape="rect" id="Node000001" title="Declares the LoginPage class, the user interface component for login and authentication." alt="" coords="146,5,311,45"/>
+<area shape="rect" id="Node000002" href="$LoginPage_8cpp.html" title="Implements the LoginPage class, handling user login/logout UI and interactions." alt="" coords="5,93,228,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,55,135,95,132,91,189,51"/>
+<area shape="rect" id="Node000003" href="$TechMapp_8cpp.html" title="Implements the TechMapp class, the main application window for TechMa." alt="" coords="252,93,432,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,51,327,91,324,95,266,55"/>
+</map>

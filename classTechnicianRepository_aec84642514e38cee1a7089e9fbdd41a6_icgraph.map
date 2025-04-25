@@ -1,0 +1,11 @@
+<map id="TechnicianRepository::subscribe" name="TechnicianRepository::subscribe">
+<area shape="rect" id="Node000001" title="Subscribes an observer to be notified on repository changes." alt="" coords="459,69,619,109"/>
+<area shape="rect" id="Node000002" href="$classTechniciansListView.html#a136af4c67741eda51583f044e243e8ca" title="Initializes UI properties and internal models." alt="" coords="236,5,388,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="453,68,383,48,384,43,454,63"/>
+<area shape="rect" id="Node000004" href="$classTechnicianRepositoryProxy.html#a66486ef4faa138ea2617d7de55057960" title="Subscribes an observer for technician repository updates." alt="" coords="213,69,411,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="445,92,411,92,411,87,445,87"/>
+<area shape="rect" id="Node000005" href="$classTechListController.html#a4bd566643a813622c34b9edc27b942ac" title="Constructs a TechListController." alt="" coords="239,133,385,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="454,116,384,136,383,131,453,111"/>
+<area shape="rect" id="Node000003" href="$classTechniciansListView.html#aa36fbe3e6761faada5f00ab73d8a84c4" title="Constructs the list view and initializes its UI and behavior." alt="" coords="5,5,165,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,28,166,28,166,23,222,23"/>
+</map>

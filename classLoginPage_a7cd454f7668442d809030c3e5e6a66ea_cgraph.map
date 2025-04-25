@@ -1,0 +1,32 @@
+<map id="LoginPage::setup_connects" name="LoginPage::setup_connects">
+<area shape="rect" id="Node000001" title="Connects UI elements to their respective slots." alt="" coords="5,270,203,295"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#ac14065c6e2529048d568cddef19f3028" title="Attempts to log in with the provided username and password." alt="" coords="252,177,400,217"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,267,260,220,262,225,139,272"/>
+<area shape="rect" id="Node000009" href="$classLoginPage.html#ad592b0f8f5de3de894e0b2cdbcc982f3" title="Logs in as a guest (no credentials required)." alt="" coords="251,263,401,303"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="203,280,237,280,237,285,203,285"/>
+<area shape="rect" id="Node000011" href="$classLoginPage.html#ae8fe253b5cce2c0285f66e29346c407b" title="Logs out the current user." alt="" coords="257,355,395,381"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="139,293,280,348,278,353,137,298"/>
+<area shape="rect" id="Node000003" href="$classLoginPage.html#abc9ba65e91d719c00b7fa31ac3577fa6" title="Clears the login input fields." alt="" coords="469,234,639,259"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="401,211,482,228,481,234,400,216"/>
+<area shape="rect" id="Node000004" href="$classAuthenticationService.html#a8c681492f74d5e7b0338ec3a5525c0a5" title=" " alt="" coords="471,5,637,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="338,175,381,116,412,83,448,55,458,49,461,54,451,60,416,87,385,119,342,179"/>
+<area shape="rect" id="Node000005" href="$UserAuthentication_8cpp.html#a55c1b35e9ad9f9520bbd0da24a54c23d" title="Hashes a plain&#45;text password (stub implementation)." alt="" coords="493,70,615,95"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="347,175,392,140,448,106,478,94,480,99,450,110,395,144,351,179"/>
+<area shape="rect" id="Node000006" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="471,284,637,324"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="358,215,401,242,450,268,471,277,469,282,448,273,398,247,355,220"/>
+<area shape="rect" id="Node000007" href="$classLoginPage.html#a1c6c8b9e73bdbfa1db03802092643731" title="Emitted when a user has successfully logged in." alt="" coords="453,185,655,210"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="400,195,439,195,439,200,400,200"/>
+<area shape="rect" id="Node000008" href="$classLoginPage.html#ab85c215a7ad69e03fa4b3d07b6687c2e" title="Updates the UI to reflect the state of a logged&#45;in user." alt="" coords="474,120,634,160"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="400,176,460,161,462,166,401,181"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="401,268,460,259,460,264,402,273"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="402,287,458,292,457,298,401,292"/>
+<area shape="poly" id="edge11_Node000009_Node000007" title=" " alt="" coords="361,260,402,239,448,219,473,211,475,216,450,224,404,243,363,265"/>
+<area shape="rect" id="Node000010" href="$classAuthenticationService.html#ac9e51df93820c8d08347adae7fd4fbb7" title=" " alt="" coords="471,348,637,388"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="371,300,450,334,472,341,470,346,448,338,369,305"/>
+<area shape="poly" id="edge14_Node000011_Node000006" title=" " alt="" coords="372,353,468,325,470,330,373,358"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="395,365,458,365,458,371,395,371"/>
+<area shape="rect" id="Node000012" href="$classLoginPage.html#a01f112292372e79480e00057fd689e2f" title="Emitted when the user requests to log out." alt="" coords="449,477,659,502"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="341,379,387,420,418,442,451,462,471,470,469,475,448,466,415,447,384,424,338,383"/>
+<area shape="rect" id="Node000013" href="$classLoginPage.html#a64039d7b1a1fde6e38e7682bb17e94a0" title="Resets the UI to the logged&#45;out state." alt="" coords="474,412,634,452"/>
+<area shape="poly" id="edge17_Node000011_Node000013" title=" " alt="" coords="373,378,470,406,468,411,372,383"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="TechniciansListView" name="TechniciansListView">
+<area shape="rect" id="Node000001" title="Custom list view displaying available technicians and observing changes in the technician repository." alt="" coords="46,79,198,104"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,92,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,38,112,77,108,80,69,42"/>
+<area shape="rect" id="Node000003" href="$classATechnicianObserver.html" title="Interface for classes that need to observe changes in the technician repository." alt="" coords="117,5,274,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,42,136,80,132,77,172,38"/>
+</map>

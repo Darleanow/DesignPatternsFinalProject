@@ -1,0 +1,5 @@
+<map id="InterventionEditPanel" name="InterventionEditPanel">
+<area shape="rect" id="Node000001" title="A QWidget&#45;based panel for editing an existing intervention." alt="" coords="5,79,167,104"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="47,5,125,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,44,89,79,83,79,83,44"/>
+</map>

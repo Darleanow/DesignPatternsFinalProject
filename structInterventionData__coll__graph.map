@@ -1,0 +1,7 @@
+<map id="InterventionData" name="InterventionData">
+<area shape="rect" id="Node000001" title="Data structure containing all relevant details of an intervention." alt="" coords="5,181,137,207"/>
+<area shape="rect" id="Node000002" href="$structLocation.html" title="Represents a physical location with an address and GPS coordinates." alt="" coords="33,93,110,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,133,74,181,69,181,69,133"/>
+<area shape="rect" id="Node000003" href="$structGPSCoords.html" title="Represents geographical coordinates with latitude and longitude." alt="" coords="25,5,118,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,45,74,93,69,93,69,45"/>
+</map>

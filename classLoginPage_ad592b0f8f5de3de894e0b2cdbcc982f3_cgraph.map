@@ -1,0 +1,11 @@
+<map id="LoginPage::login_as_guest" name="LoginPage::login_as_guest">
+<area shape="rect" id="Node000001" title="Logs in as a guest (no credentials required)." alt="" coords="5,85,156,125"/>
+<area shape="rect" id="Node000002" href="$classLoginPage.html#abc9ba65e91d719c00b7fa31ac3577fa6" title="Clears the login input fields." alt="" coords="220,5,391,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,82,157,61,203,41,230,32,232,37,205,46,159,66,118,87"/>
+<area shape="rect" id="Node000003" href="$classAuthenticationService.html#a2dc8be4689e371d7a773ac008b21cf3a" title=" " alt="" coords="223,55,388,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,92,209,85,209,91,157,97"/>
+<area shape="rect" id="Node000004" href="$classLoginPage.html#a1c6c8b9e73bdbfa1db03802092643731" title="Emitted when a user has successfully logged in." alt="" coords="204,120,407,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,111,191,116,190,121,156,117"/>
+<area shape="rect" id="Node000005" href="$classAuthenticationService.html#ac9e51df93820c8d08347adae7fd4fbb7" title=" " alt="" coords="223,170,388,210"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="128,122,205,154,229,163,227,168,203,159,126,127"/>
+</map>

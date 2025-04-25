@@ -1,0 +1,35 @@
+<map id="include/TechMa/Entities/ConcreteIntervention.h" name="include/TechMa/Entities/ConcreteIntervention.h">
+<area shape="rect" id="Node000001" title="Declares the ConcreteIntervention class, a concrete implementation of AIntervention." alt="" coords="552,5,726,45"/>
+<area shape="rect" id="Node000002" href="$AIntervention_8h.html" title="Defines the abstract base class AIntervention for representing interventions." alt="" coords="525,93,753,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="642,46,642,79,636,79,636,46"/>
+<area shape="rect" id="Node000003" href="$InterventionData_8h.html" title="Defines the InterventionData structure which holds all information related to an intervention." alt="" coords="536,167,742,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="642,119,642,153,636,153,636,119"/>
+<area shape="rect" id="Node000004" href="$ATechnician_8h.html" title="Defines the abstract base class ATechnician representing a technician entity." alt="" coords="8,262,224,287"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="536,208,200,262,199,257,535,202"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="408,431,467,456"/>
+<area shape="poly" id="edge19_Node000003_Node000005" title=" " alt="" coords="548,209,497,228,451,257,421,285,401,312,393,343,399,382,408,401,420,419,416,422,403,404,394,383,388,343,396,310,417,281,448,253,495,224,546,204"/>
+<area shape="rect" id="Node000007" href="$ExpertiseField_8h.html" title="Declares the ExpertiseField enum class representing technician specializations, and a utility functio..." alt="" coords="113,350,333,375"/>
+<area shape="poly" id="edge10_Node000003_Node000007" title=" " alt="" coords="536,203,445,223,398,238,354,257,322,276,292,298,245,342,241,338,288,294,319,272,351,252,396,233,444,218,535,198"/>
+<area shape="rect" id="Node000008" href="$Location_8h.html" title="Defines the GPSCoords and Location structures for representing geographical locations." alt="" coords="408,350,603,375"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="537,207,497,226,479,240,465,256,459,276,463,298,474,319,487,338,483,341,469,322,458,299,454,276,461,253,476,236,494,222,534,202"/>
+<area shape="rect" id="Node000009" href="$InterventionComplexity_8h.html" title="Declares the InterventionComplexity enum class representing complexity levels of an intervention." alt="" coords="475,255,670,295"/>
+<area shape="poly" id="edge11_Node000003_Node000009" title=" " alt="" coords="626,209,598,245,593,242,622,205"/>
+<area shape="rect" id="Node000010" href="$InterventionStatus_8h.html" title="Declares the InterventionStatus enum and its string conversion function." alt="" coords="627,343,822,383"/>
+<area shape="poly" id="edge12_Node000003_Node000010" title=" " alt="" coords="655,205,684,253,716,328,711,330,679,256,650,208"/>
+<area shape="rect" id="Node000011" href="$InterventionType_8h.html" title="Declares the InterventionType enum class and a string conversion utility." alt="" coords="846,343,1040,383"/>
+<area shape="poly" id="edge14_Node000003_Node000011" title=" " alt="" coords="662,205,716,247,784,292,831,316,877,335,875,340,829,321,782,297,713,252,659,209"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="795,262,862,287"/>
+<area shape="poly" id="edge16_Node000003_Node000012" title=" " alt="" coords="682,204,792,254,790,259,680,209"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="886,262,963,287"/>
+<area shape="poly" id="edge17_Node000003_Node000013" title=" " alt="" coords="711,204,875,252,882,255,881,260,873,257,710,209"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="987,262,1062,287"/>
+<area shape="poly" id="edge18_Node000003_Node000014" title=" " alt="" coords="743,201,856,223,976,252,985,255,983,260,974,257,855,228,742,207"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="92,290,59,308,27,331,16,343,9,356,9,368,16,381,41,399,81,413,130,424,186,431,301,439,394,440,394,445,300,444,185,437,129,429,79,419,39,404,12,384,4,370,4,355,12,340,24,327,56,303,89,285"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="26,350,89,375"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="111,289,76,340,72,337,106,286"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="132,285,200,339,196,343,129,290"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="255,373,396,424,395,429,253,378"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="498,377,459,422,455,419,494,374"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="656,385,481,433,480,428,655,380"/>
+<area shape="poly" id="edge15_Node000011_Node000005" title=" " alt="" coords="846,383,834,385,481,439,480,433,833,380,845,378"/>
+</map>

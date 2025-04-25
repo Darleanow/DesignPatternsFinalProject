@@ -1,3 +1,8 @@
+/**
+ * @file LoginPage.cpp
+ * @brief Implements the LoginPage class, handling user login/logout UI and interactions.
+ */
+
 #include "TechMa/Views/Pages/LoginPage.h"
 #include "TechMa/Authentication/UserAuthentication.h"
 
@@ -13,12 +18,20 @@
 #include <QTimer>
 #include <QVBoxLayout>
 
+/**
+ * @brief Constructs the login page UI and connects signals to slots.
+ * 
+ * @param parent Optional parent QWidget.
+ */
 LoginPage::LoginPage(QWidget *parent) : QWidget(parent)
 {
   setup_ui();
   setup_connects();
 }
 
+/**
+ * @brief Builds the full UI layout for the login interface.
+ */
 void LoginPage::setup_ui()
 {
     auto *main_layout = new QVBoxLayout(this);
@@ -104,24 +117,17 @@ void LoginPage::setup_ui()
     setLayout(main_layout);
 }
 
+/**
+ * @brief Connects signals to login-related slots and updates button states.
+ */
 void LoginPage::setup_connects()
 {
-  connect(
-      m_login_button, &QPushButton::clicked, this, &LoginPage::attempt_login
-  );
-  connect(
-      m_guest_button, &QPushButton::clicked, this, &LoginPage::login_as_guest
-  );
+  connect(m_login_button, &QPushButton::clicked, this, &LoginPage::attempt_login);
+  connect(m_guest_button, &QPushButton::clicked, this, &LoginPage::login_as_guest);
   connect(m_logout_button, &QPushButton::clicked, this, &LoginPage::logout);
 
-  connect(
-      m_username_input, &QLineEdit::returnPressed, this,
-      &LoginPage::attempt_login
-  );
-  connect(
-      m_password_input, &QLineEdit::returnPressed, this,
-      &LoginPage::attempt_login
-  );
+  connect(m_username_input, &QLineEdit::returnPressed, this, &LoginPage::attempt_login);
+  connect(m_password_input, &QLineEdit::returnPressed, this, &LoginPage::attempt_login);
 
   auto update_login_button = [this]() {
     m_login_button->setEnabled(
@@ -136,14 +142,15 @@ void LoginPage::setup_connects()
   update_login_button();
 }
 
+/**
+ * @brief Attempts to log the user in using the entered credentials.
+ */
 void LoginPage::attempt_login()
 {
   QString username = m_username_input->text();
   QString password = m_password_input->text();
 
-  if(AuthenticationService::instance().login(
-         username.toStdString(), hash_password(password.toStdString())
-     )) {
+  if (AuthenticationService::instance().login(username.toStdString(), hash_password(password.toStdString()))) {
     auto current_user = AuthenticationService::instance().current_user();
     update_ui_for_logged_in_user(current_user);
     emit login_successful(current_user->role());
@@ -154,6 +161,9 @@ void LoginPage::attempt_login()
   }
 }
 
+/**
+ * @brief Logs the user in as a guest.
+ */
 void LoginPage::login_as_guest()
 {
   AuthenticationService::instance().logout();
@@ -161,6 +171,9 @@ void LoginPage::login_as_guest()
   clear_fields();
 }
 
+/**
+ * @brief Logs the user out and resets the UI.
+ */
 void LoginPage::logout()
 {
   AuthenticationService::instance().logout();
@@ -168,9 +181,14 @@ void LoginPage::logout()
   emit logout_requested();
 }
 
+/**
+ * @brief Updates the UI to show the logged-in state.
+ * 
+ * @param user The currently logged-in user.
+ */
 void LoginPage::update_ui_for_logged_in_user(std::shared_ptr<User> user)
 {
-  if(!user)
+  if (!user)
     return;
 
   m_username_input->setVisible(false);
@@ -179,16 +197,10 @@ void LoginPage::update_ui_for_logged_in_user(std::shared_ptr<User> user)
   m_guest_button->setVisible(false);
 
   QString role_name;
-  switch(user->role()) {
-  case UserRole::ADMIN:
-    role_name = "Admin";
-    break;
-  case UserRole::TECHNICIAN:
-    role_name = "Technician";
-    break;
-  case UserRole::GUEST:
-    role_name = "Guest";
-    break;
+  switch (user->role()) {
+    case UserRole::ADMIN:      role_name = "Admin"; break;
+    case UserRole::TECHNICIAN: role_name = "Technician"; break;
+    case UserRole::GUEST:      role_name = "Guest"; break;
   }
 
   m_user_info->setText(QString("Logged in as: %1 (%2)")
@@ -198,6 +210,9 @@ void LoginPage::update_ui_for_logged_in_user(std::shared_ptr<User> user)
   m_logout_button->setVisible(true);
 }
 
+/**
+ * @brief Updates the UI to show the logged-out state.
+ */
 void LoginPage::update_ui_for_logged_out()
 {
   m_username_input->setVisible(true);
@@ -209,6 +224,9 @@ void LoginPage::update_ui_for_logged_out()
   m_logout_button->setVisible(false);
 }
 
+/**
+ * @brief Clears all login form fields and status messages.
+ */
 void LoginPage::clear_fields()
 {
   m_username_input->clear();
@@ -216,22 +234,34 @@ void LoginPage::clear_fields()
   m_status_label->clear();
 }
 
+/**
+ * @brief Qt show event override that updates the UI state based on login status.
+ * 
+ * @param event The show event.
+ */
 void LoginPage::showEvent(QShowEvent *event)
 {
   QWidget::showEvent(event);
 
   auto current_user = AuthenticationService::instance().current_user();
-  if(current_user) {
+  if (current_user) {
     update_ui_for_logged_in_user(current_user);
   } else {
     update_ui_for_logged_out();
   }
 }
 
+/**
+ * @brief Returns a tinted version of an icon loaded from a given file path.
+ * 
+ * @param path File path to the icon.
+ * @param color Tint color.
+ * @return A QIcon with the applied tint.
+ */
 QIcon LoginPage::tinted_icon(const QString &path, const QColor &color) const
 {
   QPixmap src(path);
-  if(src.isNull()) {
+  if (src.isNull()) {
     return QIcon();
   }
 
@@ -239,7 +269,7 @@ QIcon LoginPage::tinted_icon(const QString &path, const QColor &color) const
   dst.fill(Qt::transparent);
 
   QPainter p(&dst);
-  if(!p.isActive()) {
+  if (!p.isActive()) {
     return QIcon(src);
   }
 

@@ -1,0 +1,66 @@
+# Doxygen configuration for Modern Documentation
+
+# -------- Project Info --------
+PROJECT_NAME           = "TechMa"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = English
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_OUTPUT_FOR_CXX = YES
+
+# -------- Input --------
+INPUT                  = include src
+FILE_PATTERNS          = *.h *.hpp *.c *.cpp *.tpp
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */build/*
+
+# -------- Extract Settings --------
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_ANON_NSPACES   = YES
+
+# -------- Source Browser --------
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+STRIP_CODE_COMMENTS    = NO
+
+# -------- Documentation Output --------
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_COLORSTYLE        = DARK  # Looks much better than classic
+GENERATE_LATEX         = NO
+GENERATE_MAN           = NO
+GENERATE_XML           = NO
+GENERATE_TREEVIEW      = YES
+
+# -------- Graphs --------
+HAVE_DOT               = YES
+DOT_IMAGE_FORMAT       = svg
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_DIAGRAMS         = YES
+DOT_MULTI_TARGETS      = YES
+
+# -------- Preprocessor --------
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+SEARCH_INCLUDES        = YES
+INCLUDE_PATH           = include
+
+# -------- Warnings --------
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES
+
+# -------- Markdown & Styling --------
+MARKDOWN_SUPPORT       = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+
+# -------- Extra Styling (Cool Look) --------
+HTML_EXTRA_STYLESHEET  = custom_doxygen.css
+# -------- Project Logo --------
+
